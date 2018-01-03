@@ -1,0 +1,27 @@
+$cls-prefixs: qb-;
+
+// 后台颜色变量提取
+$qb-menu-g-bgColor:           #333c47;  //菜单背景颜色
+$qb-menu-g__switchColor:      #333c47; //展开按钮颜色
+$qb-table-g__handleHoverColor:#3c43a3; //表格详情文字颜色
+$rob-nav-tabs2Color1:#6f78bd;    //tab切换渐变色
+$rob-nav-tabs2Color2:#3c43a3;     //tab切换渐变色
+
+
+// font
+$fontSize:                       14px !default;
+
+
+//通用文本色
+$colorText:                      #393939;   //主要文字值
+$minorText:                      #7f7f7f;   //次要文字值，提示等
+$whiteText:                      #fff;      //次要文字值
+$warnText:                       #e7211c;   //警示性文字
+$yellowColor:                    #fdbe00;   //小面积颜色色值黄色
+$blueColor:                      #35baff;   //小面积颜色色值蓝色
+$bgColor:                        #dadbdd;    //背景颜色
+
+
+//////菜单颜色
+//$menubgColor:                    #333c47;   //面板背景色
+//$menutwoColor:                   #222932;   //二级菜单展开背景色

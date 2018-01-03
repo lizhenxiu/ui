@@ -1,0 +1,233 @@
+%bdsolid{
+  border: 1px solid #ccc;
+}
+%bdradius{
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+
+@include b(select-menu){
+  @extend %bdsolid;
+  @extend %bdradius;
+  padding: 15px;
+  label{
+    font-size: 12px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  @include m(selectIcon){
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 2px;
+    @include e(hover){
+      cursor: default;
+      color: #aeaeae;
+      opacity: 0.3;
+      filter:alpha(opacity=30);
+
+    }
+  }
+}
+
+@include b(select-box){
+  position: relative;
+  @include e(select-item){
+  margin-left: 22px;
+  }
+@include e(item){
+  padding-left: 14px;
+  label{
+    &:before{
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #cecece;
+      position: absolute;
+      left: -10px;
+      top: 18px;
+    }
+
+  }
+  .qb-addroles-g__three >ul > li > a{
+    &:hover{
+      border: none;
+    }
+    &:before{
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #cecece;
+      position: absolute;
+      left: -5px;
+      top: 12px;
+    }
+
+  }
+
+}
+}
+@include b(rg-bdsilid)
+{
+  &:before{
+    border-right: 1px dashed #d6d7da;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: -1px;
+  }
+}
+@include b(from-padd){
+  width: 700px;
+  margin: auto;}
+.search-bt60{
+  margin-bottom: 60px;
+}
+
+@include max-screen(768px){
+  @include b(from-padd){
+    width: auto;
+    margin: auto;}
+  .search-bt60{
+    margin-bottom: 0px;
+  }
+}
+@include b(c-search){
+  position: relative;
+  .search-inp{
+    height: 30px;
+    border-radius: 2px;
+    border: solid 1px #d6d7da;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 4px 25px 4px 6px;
+    &:focus{
+      border: 1px solid #dc0000;
+      outline: 0;
+    }
+  }
+  @include e(icon-search){
+    right: 7px;
+    top: 9px;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+
+//ie兼容性处理
+
+//表格tab
+
+ .rob-nav-tabs2>li>a{
+   background: linear-gradient(to bottom, #ced1d7, #dadce1);
+   filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ced1d7,endColorStr=#dadce1)
+ }
+.rob-nav-tabs2 > li.active > a{
+  background: linear-gradient(to bottom, $rob-nav-tabs2Color1, $rob-nav-tabs2Color2);
+  filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#6f78bd,endColorStr=#3c43a3)
+}
+
+@include b(table-label){
+      td,th{
+        vertical-align: middle;
+        word-break: break-all;
+        line-height: 20px;
+        white-space: nowrap;
+        font-size: 12px;
+      }
+    label{
+      min-width: 100px;
+      font-size: 12px;
+  }
+
+}
+@include b(nodate){
+  @include e(nohover){
+    &:hover{
+      background-color: #fff!important;
+
+    }
+  }
+  @include e(box){
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+//单选
+.rob-radio-with-gap{
+  label{
+    margin-right:15px;
+  }
+}
+@include b(addroles){
+  position: relative;
+  margin-top: 5px;
+  label{
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+  .qb-select-menu-g--selectIcon{
+    float: right;
+    margin-top: 12px;
+
+  }
+  @include e(three){
+    position: relative;
+    padding-left: 15px;
+    ul{
+      >li{
+        padding: 5px 6px;
+        margin: 6px 0;
+        >a{
+          padding: 6px;
+          color: $colorText;
+          font-size: 12px;
+          position: relative;
+          .rob-icon-plus,.qb-icon-delete2{
+            padding-right: 5px;
+            font-size: 14px
+          }
+          &:hover{
+            border: 1px dashed #cecece;
+            background: #fff;
+          }
+          &.on{
+            border: solid 1px #2b459a;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@include b(bg-select){
+  background: #f3f7fc;
+  margin: 8px -15px 0px -15px;
+  .qb-addroles-g{
+    margin: 0 15px;
+  }
+}
+.rob-select{
+  @include b(no-boder){
+    border: none!important;
+    padding-left: 30px;
+    &:hover{
+      border: none!important;
+    }
+  }
+}
+.qb-search-g__re-calendar .rob-input,.rob-input-date .rob-input{
+  background-color: transparent; z-index: 9;
+  cursor: pointer;
+}
+

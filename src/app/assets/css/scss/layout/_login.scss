@@ -1,0 +1,284 @@
+.qb-login-bj {
+  background: url('../../../assets/images/bg_login.jpg')no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+@include b(login-box)
+{
+  //position: fixed;
+  //top: 50%;
+  //left: 50%;
+  //-webkit-transform: translate(-50%, -50%);
+  //-moz-transform: translate(-50%, -50%);
+  //-ms-transform: translate(-50%, -50%);
+  //-o-transform: translate(-50%, -50%);
+  //transform: translate(-50%, -50%);
+  //z-index: 104;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 1120px;
+  max-height: 450px;
+  z-index: 104;
+}
+@include b(login){
+  padding: 0;
+  border: none;
+  width: 40%;
+  margin: 0;
+  float: right;
+  background: #fff;
+  max-width: 350px;
+  max-height: 500px;
+  @include e(login-h3){
+color: $colorText!important;
+    font-weight: 400;
+    font-size: 22px !important;
+    margin: 0 !important;
+    padding: 13px 0 !important;
+    border-bottom: 1px solid #eaecee;
+  }
+
+  @include e(login-password){
+    
+    right: 20px !important;
+  }
+
+  form {
+    padding: 30px 45px 0 45px;
+  }
+
+  .rob-form-group {
+     margin-bottom: 18px;
+  }
+  .rob-has-icon-left .rob-is-icon-left {
+     top:5px;
+     font-size: 14px;
+     cursor: inherit;
+  }
+
+  .rob-input-has-error .rob-is-icon-left {
+    color: #cc1612;
+  }
+
+  .rob-has-icon-right .rob-is-icon-right {
+      top:5px;
+    right: 0;
+      color: #dddddd;
+      &:hover {
+        color: $colorText;
+      }
+  }
+
+  input:-webkit-autofill {
+    background-color: #FAFFBD;
+    background-image: none;
+    color: #000;
+    }
+
+  .rob-has-icon-left .rob-input {
+    padding-left: 30px;
+    font-size: 18px;
+    height: 34px;
+  }
+
+  .rob-input-line .rob-input:focus + .rob-input-line-border {
+    border-color: #c2c2c2;
+  }
+  .rob-input-line {
+        padding: 0;
+        border-color: #cfcfcf;
+        &:hover {
+          border-color: #999999;
+        }
+        .rob-is-icon-left {
+              left: 0;
+              padding: 6px 0;
+        }
+  }
+  
+  .rob-input-has-error.rob-input-line {
+     border-color: #cc1612;
+  }
+
+  .rob-code-img {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    height: 30px;
+    img {
+      position: relative;
+      z-index: 999;
+      cursor: pointer;
+      right: 0;
+      height: 100%;
+      width: 80px;
+    }
+  }
+  .rob-form-group button {
+    margin-top: 15px;
+    width: 100%;
+    height: 38px;
+    box-shadow: 0px 8px 20.2px 3.8px rgba(204, 22, 18, 0.33);
+  }
+  .rob-form-group .rob-panel-button  {
+    padding: 0;
+ }
+ .rob-login-entries {
+   padding: 0 15px 20px 15px;
+    margin-top: 30px;
+    text-align: center;
+   .list-tag{
+     font-size: 12px;
+     color: #cfcfcf;
+     margin-top: 3px;
+   }
+    ul {
+      display: inline-block;
+      li {
+        float: left;
+        display: inline;
+        padding: 5px;
+          a {
+              font-size: 12px;
+              color: $colorText;
+            &:hover {
+              color: #cc1612;
+            }
+          }
+        }
+    }
+    
+ }
+
+ .rob-login-password-padding-right {
+    padding-right: 50px;
+ }
+ .rob-login-code-padding-right {
+    padding-right: 100px;
+ }
+}
+@include b(login-name){
+color: #fff;
+  width: 58%;
+  float: left;
+  margin-top: 100px;
+  line-height: 45px;
+  padding-left: 15%;
+  h3{
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 400;
+  }
+  @include e(ft2){
+    font-size: 18px;
+    border-bottom: 2px solid #f7696c;
+    padding-bottom: 24px;
+    letter-spacing: 2.3px;
+  }
+  @include e(ft3){
+    font-size: 12px;
+    margin-top: 23px;
+  }
+}
+
+
+::-webkit-input-placeholder {
+  color: #aaaaaa !important;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: normal;
+  padding-top: 4px;
+}
+
+@include screen(850px,992px) {
+  .qb-login-name-g {
+    padding-left: 0;
+  }
+
+  .qb-login-box-g {
+   // padding-top: 18%;
+  }
+}
+
+@include max-screen(850px){
+  .qb-login-g {
+    width: 100%;
+    margin: auto;
+    float: initial;
+  }
+
+  .qb-login-name-g {
+    color: #fff;
+    line-height: 30px;
+    max-width: 350px;
+    margin: auto;
+    float: initial;
+    padding:0;
+    width: 100%;
+
+  }
+  .qb-login-name-g h3 {
+    font-size: 24px;
+  }
+  .qb-login-name-g__ft2 {
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+  .qb-login-box-g{
+    max-height: 100%;
+    margin-top: 65px;
+  }
+}
+@include max-screen(700px){
+  .qb-login-name-g{
+    width:100%;
+    padding-left: 0;
+  }
+  .qb-login-box-g{
+    max-height: 100%;
+    margin-top: 65px;
+  }
+}
+
+
+.rob-login-password-padding-right::-webkit-input-placeholder ,.rob-login-code-padding-right::-webkit-input-placeholder{
+  font-size:14px;
+}
+.rob-login-password-padding-right::-moz-placeholder,.rob-login-code-padding-right::-moz-placeholder {
+  font-size:14px;
+}
+.rob-login-password-padding-right::-moz-placeholder,.rob-login-code-padding-right::-moz-placeholder{
+  font-size:14px;
+}
+.rob-login-password-padding-right:-ms-input-placeholder,.rob-login-code-padding-right:-ms-input-placeholder{
+  font-size:14px!important;
+}
+.rob-login-password-padding-right:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #333;
+}
+input::-webkit-search-cancel-button{
+  display: none;
+}
+input[type=text]::-ms-clear, input[type=text]::-ms-reveal{
+  display: none;
+}
+.rob-has-icon-right .rob-input {
+  padding-right: 20px; }
+.rob-select .bd-bottom{
+  border-radius: 0;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+.rob-select .bd-bottom:focus,.rob-select .bd-bottom:hover{
+  box-shadow: none;
+}

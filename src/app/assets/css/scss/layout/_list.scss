@@ -1,0 +1,40 @@
+@include b(list) {
+  background: #fff;
+  @include e(pagination) {
+    padding: 35px 10px 0px 0;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    height: 100px;
+  }
+  @include m(red) {
+    td {
+      padding-left: 20px !important;
+      font-size: 12px;
+      vertical-align: middle;
+      word-break: break-all;
+      line-height: 20px;
+      white-space: nowrap;
+       
+    }
+  }
+  @include e(style){
+    .rob-icon-trash{
+      padding-left: 20px;
+      color: #868585;
+      &:hover{
+        color: #000;
+      }
+    }
+  }
+}
+
+.qb-list-g__pagination .column .rob-pagination-jump::after{
+  content: '';
+  position: absolute;
+  top: -36px;
+  width: 97%;
+  border-top: 1px solid #e1e5ea;
+  left: 15px;
+  right: 0;
+}

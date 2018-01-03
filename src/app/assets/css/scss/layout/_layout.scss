@@ -1,0 +1,80 @@
+@include b(wapper) {
+  margin: 70px 10px 15px 210px;
+  @include e(menu-mini) {
+    margin: 70px 10px 15px 55px;
+  }
+}
+@include b(panel) {
+  background-color: #fff;
+  border: solid 1px #e1e5ea;
+  margin-top: 10px;
+  table{
+    border:none;
+    //border-bottom: 1px solid #cdcdcd;
+  }
+}
+.rob-sidebar-menu-1{
+  height: 100%;margin-bottom: 60px;
+}
+@media (max-width: 700px) {
+    @include b(wapper) {
+        //margin: 70px 15px 15px 60px;
+        @include e(menu-mini) {
+            margin: 70px 15px 15px 60px; 
+        }
+    }
+}
+@media (max-width: 700px) {
+  //.qb-wapper-g {
+  //  margin: 70px 15px 15px 60px;
+  //}
+  .qb-footer-g{
+    margin-left: 45px;
+  }
+  @include b(open_menu){
+    width: 200px;
+    .rob-sidebar-menu-1>li>a .title {
+      display: inline-block;
+    }
+    .rob-sidebar-menu-1>li>a .arrow {
+      display: inline-block;
+    }
+    .rob-sidebar-menu-1 {
+      width: 200px !important;
+    }
+
+    .rob-sidebar-menu-1 > li:hover > a > i {
+      margin-right: 0px;
+    }
+    .rob-sidebar-menu-1.close > li:hover .sub-menu{
+      display: none!important;
+    }
+  }
+  @include b(wapper_open){
+    margin: 70px 10px 15px 210px;
+  }
+
+  @include b(footer_open){
+    margin-left: 200px;
+  }
+}
+
+
+@include b(menu){
+  @include e(wid0){
+    width: 0;
+  }
+
+}
+@include b(wapper){
+  @include e(mar15){
+    margin-left: 15px;
+  }
+
+}
+@include b(footer){
+  @include e(mg0){
+    margin:0;
+  }
+
+}

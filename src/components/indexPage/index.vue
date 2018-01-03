@@ -6,25 +6,25 @@
       <div class="rob-col-md-6 rob-col-sm-12 rob-xs-12">
         <div class="ui-card">
           <img src="" alt="">
-          <h4>1</h4>
+          <h4></h4>
         </div>
       </div>
       <div class="rob-col-md-6 rob-col-sm-12 rob-xs-12">
         <div class="ui-card">
            <img src="" alt="">
-          <h4>1</h4>
+          <h4></h4>
         </div>
       </div>
       <div class="rob-col-md-6 rob-col-sm-12 rob-xs-12">
         <div class="ui-card">
            <img src="" alt="">
-          <h4>1</h4>
+          <h4></h4>
         </div>
       </div>
       <div class="rob-col-md-6 rob-col-sm-12 rob-xs-12">
         <div class="ui-card">
            <img src="" alt="">
-          <h4>1</h4>
+          <h4></h4>
         </div>
       </div>
     </div>

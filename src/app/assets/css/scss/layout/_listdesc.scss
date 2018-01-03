@@ -1,0 +1,65 @@
+@include b(listdesc) {
+  margin: 10px 0;
+  @include e(header) {
+    background-color: #fafbfd;
+    background-image: linear-gradient(to top, #f3f7fc 0%, #fafbfd 100%);
+    background-image: -webkit-linear-gradient(bottom, #f3f7fc 0%, #fafbfd 100%);
+    font-size: 14px;
+    border-top: 1px solid #e1e5ea;
+    border-bottom: 1px solid #e1e5ea;
+    color: $colorText;
+    padding: 12px 20px;
+  }
+  @include e(content) {
+    padding: 30px;
+    @include e(title) {
+      font-size: 12px;
+      color: $minorText;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    @include e(desc) {
+      font-size: 12px;
+      color: $colorText;
+      margin-top: 10px;
+      display: inline-block;
+      @include m(error) {
+        color: #dc0000;
+      }
+      @include e(div) {
+margin-bottom:10px;
+      }
+      @include m(top){
+        padding-top:130px;
+      }
+       @media (max-width: 991px) {
+        @include m(top){
+        padding-top:30px;
+      }
+    }
+    }
+    @include e(img) {
+      margin-top: 10px;
+      width: 100px;
+      display: inline-block;
+      border: 1px solid #e1e5ea;
+      min-height: 50px;
+      position: relative;
+      img {
+        width: 98px;
+        height: 98px;
+      }
+      @include m(reupload) {
+        position: absolute;
+        bottom: 0;
+        background: #000;
+        opacity: .6;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: 12px;
+        padding: 2px;
+      }
+    }
+  }
+}

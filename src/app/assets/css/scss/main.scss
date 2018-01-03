@@ -1,0 +1,57 @@
+
+/**
+ * 注释
+ *
+ * BASE
+ *
+ * variable...............所有样式变量.
+ * common...............所有公用样式.
+ *
+ * TOOLS
+ *
+ * Mixins...............类工具.
+ *
+ * LAYOUT
+ *
+ * header.............头部
+ * footer.............页尾
+ * left-menu.............左边菜单
+ *
+ */
+
+
+
+
+
+//@import "qbstyle/houtai";     //后台
+@import "qbstyle/qiantai";   //前台
+
+
+@import "base/fn";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/left-menu";
+@import "layout/layout";
+@import "layout/column-header";
+@import "layout/home";
+@import "layout/search-box";
+@import "layout/chart";
+@import "layout/list";
+@import "layout/timeline";
+@import "layout/table";
+@import "layout/msgdesc";
+@import "layout/setting";
+@import "layout/datetime";
+
+@import "layout/listdesc";
+@import "layout/register";
+@import "layout/alert";
+@import "layout/form-group";
+
+@import "layout/form";
+@import "layout/media";
+@import "layout/board";
+@import "layout/icon";
+@import "layout/404";
+@import "layout/laoding";
+@import "layout/boards";

@@ -1,0 +1,21 @@
+$element-separator:        "__" !default;
+$modifier-separator:       "--" !default;
+@mixin b($name) {
+  .#{$cls-prefixs}#{$name}-g {
+    @content;
+  }
+}
+@mixin e($name) {
+  @at-root {
+    &#{$element-separator}#{$name} {
+      @content;
+    }
+  }
+}
+@mixin m($name) {
+  @at-root {
+    &#{$modifier-separator}#{$name} {
+      @content;
+    }
+  }
+}

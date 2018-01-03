@@ -1,0 +1,204 @@
+html,body {
+  background-color: #e9ebef!important;
+  font-family:"Microsoft YaHei";
+  height: 100%;
+  line-height: 1.5;
+}
+
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a{
+  cursor: pointer;
+}
+
+
+.qb-has-error {
+        color: #cc1612;
+      }
+
+.qb-bg-white-g{
+  background: #fff !important;;
+}
+.rob-table-responsive{
+  table{
+    min-width: 600px;
+  }
+}
+body{
+  min-width: 600px;
+}
+.isopacity{
+  opacity:0;
+}
+
+input::-ms-reveal {
+  　　display: none;
+  color: transparent;
+}
+
+.text-indent{
+  text-indent: 26px;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #393939;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+//字体大小
+.fs12 {
+  font-size: 12px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs22 {
+  font-size: 28px;
+}
+.fs30 {
+  font-size: 30px;
+}
+
+//颜色
+.grayc {
+  color: #ccc;
+}
+.gray39 {
+  color: #393939;
+}
+.gray6 {
+  color: #666;
+}
+
+//边距
+.p10 {
+  padding: 10px;
+}
+.plr10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mr20{
+  margin-right: 20px;
+}
+.mr40{
+  margin-right: 40px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mb140{
+  margin-bottom: 140px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mlr0{
+  margin-left: 0;
+  margin-right: 0;
+}
+.mlr10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mtb10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pdtb100{
+  padding: 100px 15px;
+}
+.qb-no-padding-rg{
+  padding-right: 0;
+}
+.qb-no-padding-lf{
+  padding-left: 0;
+}
+.pd38{
+  padding:10px 38px;
+}
+.pd30{
+  padding:8px 30px;
+}
+.mgt30{
+  margin-top: 30px;
+}
+.mgside{
+ margin-left: 0px;
+  margin-right: 0px;
+}
+.pb80{
+  padding-bottom: 80px;
+}
+.pb50{
+  padding: 12px 50px;
+  margin: 0 5px;
+}
+.pd5{
+  padding: 0 4px;
+}
+.btm0{padding-bottom: 0!important;}
+//颜色
+.col-f83{
+  color: #ff830a;
+}
+.col-e72{
+  color: #e7211c;
+}
+
+.qb-hands-g{
+  cursor: pointer;
+}
+.qb-oh-g{
+  overflow: hidden;
+}
+.mt0{
+  margin-top: 0!important;
+}

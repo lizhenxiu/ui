@@ -1,0 +1,77 @@
+@include b(card) {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -10px;
+    .rob-col-lg-6, .rob-col-md-12, .rob-col-xs-24, .rob-col-sm-24 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    @include e(item) {
+        padding: 20px 0 20px 30px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        box-shadow: 0px 10px 30px 0 #d5e1f4;
+        overflow: hidden;
+    }
+    @include e(title) {
+        font-size: 16px;
+        color: #222128;
+    }
+    @include e(icon) {
+        width: 70px;
+        height: 70px;
+        margin-top: 20px;
+        //background: url(../../assets/images/qbicon.png) no-repeat -123px -47px; }
+        &.icon-one{
+            background: url(../../../assets/images/qbicon.png) no-repeat -32px -47px;
+            display: inherit;
+            //background-size: 70px;
+            float: left;
+            //width: 70px;
+            //height: 70px;
+
+        }
+    }
+    @include e(content) {
+        padding-bottom: 10px;
+        border-right: 4px  solid #7c89ea;
+        margin-top: 20px;
+        i{
+            width: 70px;
+            margin-right: 10px;
+            height: 70px;
+            display: inline-block;
+            border-radius: 50%;
+            line-height: 70px;
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            float: left;
+        }
+        @include m(icon-one){
+            background: #7c89ea;
+            box-shadow: 0px 10px 30px 0 #b1b9f2;
+        }
+        @include m(icon-two){
+            background: #00d171;
+            box-shadow: 0px 10px 30px 0 #92ebc3;
+        }
+        @include m(icon-three){
+            background: #ff8257;
+            box-shadow: 0px 10px 30px 0 #ffc9b6;
+        }
+        @include m(icon-four){
+            background: #c07cd8;
+            box-shadow: 0px 10px 30px 0 #deb9e9;
+        }
+        @include e(num) {
+            font-size: 26px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        @include e(desc) {
+            font-size: 14px;
+        }
+    }
+
+}

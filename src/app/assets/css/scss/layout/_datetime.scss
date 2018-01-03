@@ -1,0 +1,100 @@
+@include b(time_picker_box){
+  color: #5a5e66;
+  border: 1px solid #dfe4ed;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  background: #fff;
+  border-radius: 4px;
+  line-height: 30px;
+  margin: 5px 0;
+}
+@include b(panel__body){
+  margin-left: 110px;
+  min-width: 513px;
+  .rob-calendar-panel{
+    border:0;
+    box-shadow: none;
+  }
+}
+@include b(datepicker_side){
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 110px;
+  border-right: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  background-color: #f3f7fc;
+  overflow: auto;
+}
+@include b(time_header){
+  position: relative;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 12px;
+  padding: 8px 5px 5px;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+@include b(picker-panel__shortcut){
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  line-height: 40px;
+  font-size: 14px;
+  color: #5a5e66;
+  padding-left: 12px;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+&:hover{
+  background: #d7f1ff;
+}
+}
+.rob-input-time{
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: solid 1px #dedede;
+  box-sizing: border-box;
+  color: #5a5e66;
+  display: inline-block;
+  font-size: inherit;
+  height: 32px;
+  line-height: 1;
+  outline: none;
+  padding: 0 12px;
+  width: 100%;
+}
+.qb-time_header-g .rob-input-item:last-child:before{
+  line-height: 32px;
+  color:  #a9a9a9;
+  left: -6px;
+}
+td.start-date .time-date,td.end-date .time-date {
+  background-color: #35baff;
+  color: #fff;
+}
+td.in-range div,td.in-range div:hover,td.in-range div span{
+   background-color: #edf2fc;
+ }
+ .qb-panel__body-g .time-date{
+   width: 24px;
+   height: 24px;
+   display: block;
+   margin: 0 auto;
+   line-height: 24px;
+ }
+.rob-calendar-panel .rob-calendar-content td{
+  position: relative;
+}
+.in-range .time-date{
+background: #d7f1ff;
+  color: #393939;
+}
+.qb-time_header-g .mg-lf{
+  padding-left: 5px;
+}
+.qb-time_header-g .rob-input-date .mg-rg{
+  padding-right: 5px;
+}

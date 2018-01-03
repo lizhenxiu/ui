@@ -1,0 +1,580 @@
+%pd0 {
+    padding: 0;
+}
+.rg22{right: 22px!important;}
+@include b(jumbotron) {
+    .qb-icon-OK {
+        font-size: 20px;
+    }
+    @include m(transform) {
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        -o-transform: translate(-50%);
+        transform: translate(-50%);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+    }
+
+    background: url("../../../assets/images/reg_bg.jpg")no-repeat center center;
+
+    margin-top: 60px;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+    @include e(h90){
+        height: 90px;
+    }
+    .rob-step-scroll {
+        display: table;
+        .rob-is-horizontal {
+            display: table-cell;
+            margin-left: -25px;
+            left: 65px;
+            right: 26px;
+            margin-top: 5px;
+
+            @include m(mgleft){
+
+                top: 50%;
+                left: 50%;
+                width:62%;
+                text-align:center;
+                color:#fff;
+                //-webkit-transform:translate(-50%, -50%);
+                //-moz-transform: translate(-50%, -50%);
+                //-ms-transform:translate(-50%, -50%);
+                //-o-transform:translate(-50%, -50%);
+                //transform:translate(-50%, -50%);
+                position: absolute;
+                margin-left: -33%;
+                margin-top: -39px;
+            }
+            .rob-step-icon {
+                line-height: 40px;
+            }
+        }
+    }
+    @include e(mg){
+        margin: 0 0 30px 0;
+    }
+}
+
+@include b(form-pd20) {
+    padding: 20px 0;
+    //overflow: hidden;
+}
+
+@include b(step) {
+    @include m(white) {
+        color: $white;
+        background-color: $white;
+        border-color: $white;
+    }
+    @include m(font) {
+        font-size: 12px;
+        font-weight: 200;
+        color: $white;
+    }
+}
+
+@include b(form) {
+    @include e(form) {
+        background: $white;
+        max-width: 1030px;
+        margin: 15px auto 0;
+        //overflow: hidden;
+        box-shadow: 0 8px 21.8px 4.2px rgba(156, 163, 168, 0.26);
+    }
+}
+
+.rob-step-title.rob-is-wait,
+.rob-step-title.rob-is-process {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+@include b(up_img){
+    max-height: 90px;
+@include e(titile){
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    filter:alpha(opacity=50);
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    line-height: 27px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+}
+
+@include b(container) {
+    max-width: 900px;
+    margin: auto;
+    @include e(pdt62) {
+        padding: 62px 0 0 0;
+    }
+}
+
+@include b(red) {
+    color: #ce1100;
+    @include e(line) {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
+
+.qb__line:hover {
+    text-decoration: underline;
+}
+
+@include b(form-group-b10) {
+    .rob-form-group {
+        margin-bottom: 10px;
+    }
+}
+
+@include b(form-pd) {
+    padding: 40px 15px 30px 100px;
+    //overflow: hidden;
+    position: relative;
+    @include m(solid) {
+        border-bottom: 1px dashed #e4ecf1;
+    }
+    @include b(steps) {
+        width: 40px;
+        height: 40px;
+        background-color: #ffffff;
+        border: solid 2px #7ec8ff;
+        position: absolute;
+        left: 70px;
+        border-radius: 50%;
+        line-height: 39px;
+        color: #7ec8ff;
+        font-style: normal;
+    }
+}
+
+@include b(pd0) {
+    padding: 0;
+}
+
+@include b(select-pd0) {
+    padding: 0;
+}
+
+@include b(active){
+    padding: 60px 15px 40px 15px;
+    text-align: center;
+    @include e(mb40){
+        margin-bottom: 40px;
+    }
+}
+
+@include b(fontColor){
+    color: #8f8f8f;
+
+}
+
+.pay-box-pd{
+    padding: 40px 50px;
+    position: fixed;
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+@include max-screen(768px) {
+    .pay-box-pd{ width: 100%;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+@include max-screen(992px) {
+    @include b(form-pd) {
+        padding: 50px 15px 30px 80px;
+    }
+}
+
+@include screen(768px,
+992px) {
+    @include b(form-pd) {
+        padding: 50px 15px 30px 80px;
+    }
+    @include b(pd0) {
+        padding: 0;
+    }
+    .qb-form-pd-g .qb-steps-g {
+        left: 40px;
+    }
+}
+
+
+
+
+@include b(from-bg-reg) {
+    background: #f4f8fa;
+    padding: 30px 0;
+    .rob-btn+.rob-btn {
+        margin-left: 10px;
+    }
+    .rob-btn {
+        padding: 12px 40px;
+    }
+}
+@include b(agreement) {
+    margin: 70px 10px 10px 10px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        height: 4px;
+        top:0;
+        width: 100%;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#aa0556',endColorStr='#521373',gradientType='1');
+        background: -moz-linear-gradient(left, #aa0556, #521373);
+        background: -o-linear-gradient(left,#aa0556, #521373);
+        background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#aa0556), to(#521373));
+    }
+h3{line-height: 35px;font-size: 18px;}
+
+    @include e(title) {
+        text-align: center;
+        font-size: 20px;
+        padding: 35px;
+        font-weight: normal;
+    }
+    @include e(ag-content) {
+        border-top: 1px dashed #e4ecf1;
+        padding: 30px;
+        margin-bottom: 130px;
+        @include m(segment) {
+          text-align: justify;
+          font-size: 12px;
+          line-height: 25px;
+          margin-bottom: 10px;
+            b{
+                font-size: 14px;
+            }
+        }
+    }
+    @include e(bottom){
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+@include b(mg-bt70) {
+    margin-bottom: 70px;
+}
+
+@include b(l40) {
+    line-height: 40px;
+}
+
+@include b(getmsg) {
+    position: relative;
+    .rob-input {
+        padding-right: 120px;
+    }
+    @include e(rgbd) {
+        right: 0px;
+        top: 12px;
+        position: absolute;
+        cursor: pointer;
+        width: 120px;
+        display: block;
+        height: 100%;
+        top: 0;
+        text-align: center;
+        line-height: 40px;
+        &:hover {
+            color: #dc0000;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 39px;
+            border-left: 1px solid #cccccc;
+            margin-left: -30px;
+            top: 0px;
+            cursor: pointer;
+        }
+    }
+}
+
+@include b(picture) {
+    background: #f4f9ff;
+    border: 1px solid #e0e6ee;
+    padding: 20px 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+@include b(container) {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include e(upload) {
+        display: inline-block;
+        margin-right: 10px;
+        float: left;
+        width: 120px;
+        overflow: hidden;
+        .rob-upload-card:hover {
+            border: 1px solid #dc0000;
+
+            .qb-icon-rob-icon-plus:hover {
+                border-color: #dc0000;
+                color: #dc0000;
+            }
+        }
+        .rob-upload-card:hover .qb-up_img-g__titile{
+            display: block;
+        }
+    }
+    .rob-fileimgtext {
+        display: block;
+        line-height: 30px;
+    }
+    .rob-upload-card {
+position: relative;
+        overflow: hidden;
+        width: 120px;
+        min-height: 90px;
+        height: 90px;
+        .qb-icon-rob-icon-plus {
+            min-width: 77px;
+            min-height: 46px;
+            margin: 20px;
+            background: #f8f8f8;
+        }
+    }
+    .rob-input-label {
+        text-align: right;
+        margin-top: 25px;
+    }
+}
+
+
+@include max-screen(768px) {
+    @include b(form-pd) {
+        padding: 20px 0px 0px 50px;
+        @include e(xs-label) {
+            .rob-input-label {
+                line-height: 25px;
+            }
+        }
+    }
+
+    @include b(pd0) {
+        padding: 0 15px;
+    }
+    .qb-container-g .rob-input-label {
+        text-align: left;
+        margin-top: 0px;
+    }
+    .qb-form-pd-g .qb-steps-g {
+        left: 20px;
+    }
+}
+
+.pd-form-60 {
+    margin: 50px 60px;
+}
+
+@include b(upload-eg) {
+    border: 1px dashed #dbe2eb;
+    background: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.qb-info {
+    display: table;
+    margin: auto;
+}
+
+@include b(info) {
+    position: relative;
+    @include e(title) {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+    @include e(img) {
+        display: table-cell;
+        vertical-align: middle;
+        img {
+
+            border: 1px solid #dbe2eb;
+            padding: 1px;
+            max-width: 100px;
+            max-height: 73px;
+        }
+    }
+}
+
+.mg-b20 {
+    margin-bottom: 15px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.lable-text {
+    margin-left: 38px;
+    text-align: center;
+    display: block;
+}
+
+.qb-step-success-g {
+    .rob-step-head.rob-is-text {
+        border-color: #dc0000;
+        background: #dc0000;
+    }
+    .rob-is-process {
+        color: #dc0000;
+    }
+    .rob-step-icon,
+    .rob-is-wait {
+        color: #dc0000;
+    }
+    .rob-step-line-inner {
+        transition-delay: 0ms;
+        height: 1px;
+        background-color: red;
+        width: 100%;
+    }
+}
+
+
+@include b(r-success) {
+    margin: 90px auto;
+    overflow: hidden;
+    display: table;
+    @include m(s_box) {
+        display: table-cell;
+        text-align: left;
+        padding-left: 20px;
+        vertical-align: middle;
+    }
+
+    @include e(r_tit) {
+        display: table-cell;
+    }
+}
+
+.font18 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.qb-icon-report1 {
+    margin-right: 4px;
+    font-size: 13px!important;
+    vertical-align: middle!important;
+}
+.btn-box{
+  text-align: center;
+    padding-bottom: 30px;
+  .rob-btn{
+    padding: 12px 40px;
+  }
+
+
+}
+
+.rob-step-title.rob-is-success {
+    font-weight: 200;
+    font-size: 13px;
+}
+.rob-upload .rob-upload-card .rob-upload-card-type{
+    margin: 21px 24px;
+    padding-top: 12px;
+}
+@include b(enterprise){
+  padding: 120px 0;
+    margin-top: 60px;
+    @include e(bg) {
+      background: url("../../../assets/images/bg-choose.jpg") no-repeat center;
+    }
+}
+@include b(btn-cchoose){
+    background: #fff;
+    border-radius: 50px;
+    color: #e7211c;
+  display: inline-block;
+  cursor: pointer;
+  &:hover{
+    background: #e7211c;
+    color: #fff;
+  }
+}
+@include b(con-list){
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  li{
+    margin-bottom: 8px;
+    a{
+      color: #393939;
+      cursor: default;
+    }
+  }
+}
+@include b(greet){
+  margin-top: 18px;
+  display: inline-block;
+  margin-left: 20px;
+}
+@include b(check){
+  margin: 70px 10px 10px 10px;
+  background: #fff;
+  position: relative;
+  padding: 40px 0;
+}
+@include b(con-detail){
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 120px;
+  li{
+    a{
+      color: #fff;
+      line-height: 30px;
+    }
+  }
+}
+.pdtb140{
+  padding: 20px 90px;
+  margin: 140px 0 80px 0;
+}
+@include b(ico-tb){
+    display: table;
+}

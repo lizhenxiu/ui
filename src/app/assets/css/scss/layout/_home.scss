@@ -1,0 +1,222 @@
+@include b(dashboard) {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 23px 0;
+  background: url(../../../assets/images/home_bg.jpg);
+  background-size: 100% 100%;
+  -webkit-animation: fadein .5s ease 0s forwards;
+  @include e(item) {
+    padding: 20px 20px 20px 70px;
+    border-right: 1px dashed #a10908;
+    @include m(border-none) {
+      border-right: none;
+    }
+    @media (max-width: 991px) {
+   @include m(border-none) {
+    border-bottom: none !important;
+    margin-top: 40px;
+  }
+}
+
+  }
+  @media (max-width: 991px) {
+   @include e(item) {
+    border: none;
+    border-bottom: 1px dashed #a10908;
+    text-align: center;
+  }
+}
+  @include e(money) {
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+  }
+  @include e(desc) {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 0 26px;
+  }
+  @include e(button) {
+
+    button {
+      &+button {
+        margin-left: 10px;
+      }
+    }
+  }
+  @include e(row) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@include b(dolist) {
+  color: #fff;
+  margin-top: -20px;
+  margin-left: -10px;
+  @include e(title) {
+    padding: 0 0 10px 0;
+    margin-left: 10px;
+    border-bottom: 1px solid #8e5b66;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  ul {
+    margin-top: 16px;
+    li {
+      padding-left: 10px;
+      &:hover {
+        background-color: #dc0000;
+      }
+      .num {
+        color: #ff9600;
+        padding: 0 5px;
+      }
+    }
+    a {
+      display: inline-block;
+      width: 100%;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+  @include e(dolist) {}
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@include b(handle) {
+  background-color: #fff;
+  text-align: center;
+  margin: 0;
+  @include e(item) {
+    margin: 0 auto;
+    padding: 20px;
+   
+    &:hover{
+      background-color: #f2f4f6;
+       cursor: pointer;
+    }
+    label {
+      font-size: 14px;
+      color: #393939;
+      display: block;
+    }
+    &.active{
+        background-color: #f2f4f6;
+    }
+  }
+}
+
+.qb-col-lg-5{
+  width: 20%;
+  float: left;
+}
+.rob-col-6{
+  width: 16.6%;
+  float: left;
+}
+@include b(box-tit){
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  @include e(name){
+    padding: 40px 0px;
+    span{
+      margin: 0px 8px;
+    }
+    }
+  }
+@include b(income){
+  background: #fff;
+  border-bottom: 1px dashed #e0e5e8;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  .col-e72{
+    margin-left: 40px;
+  }
+}
+.money_item{
+  p{
+    font-size: 12px;
+    color: #4e4e4e;
+    margin-bottom: 5px;
+  }
+  div{
+    color: #393939;
+    font-size: 16px;
+  }
+
+}
+@include b(panel_box){
+  padding: 180px 15px;
+}
+.rob-ant-timeline-item-desc_01{
+  padding: 0 0 0 110px;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  margin-top: -2px;
+}
+.rob-ant-timeline-item-head-green{
+  border: 3px solid #35baff;
+}
+.time-progress{
+  display: inline-block;
+}
+.table-deal thead{
+  background: #fff;
+}
+.rob-table.table-deal thead > tr > th{
+  border:none;
+}
+.table-deal tbody tr{
+  border-bottom: 1px dashed #e0e5e8;
+  height: 60px;
+}
+table.rob-table.table-deal {
+  margin: 30px;
+}
+@include b(s-more){
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  color: #7f7f7f;
+  &:hover{
+    color: #dc0000;
+  }
+}
+@include b(start){
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+@include b(eva){
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+.pdtb90{
+  padding: 20px 90px;
+  margin: 120px 0;
+}
+@media (max-width: 992px) {
+  .pdtb90{
+    margin: 20px 0;
+  }
+}
+@media (max-width: 1366px) {
+  .pdtb90{
+    margin: 40px 0;
+  }
+}

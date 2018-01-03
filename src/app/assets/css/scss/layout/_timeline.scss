@@ -1,0 +1,58 @@
+@include b(time-line) {
+      padding: 20px 20px 0;
+  @include e(list-title) {
+    color: $minorText;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+    @include e(list-item) {
+   margin-top:15px;
+  }
+  @include e(list-money) {
+    color: $colorText;
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: normal;
+    padding-right: 8px;
+    @include m(small) {
+      font-size: 12px;
+      margin-top:6px;
+         margin-bottom:8px;
+      word-wrap: break-word;
+      word-break: normal;padding-right: 8px;
+    }
+  }
+  @include e(list-icon) {
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 4px 6px;
+    font-size: 12px;
+    padding-right: 8px;
+    i {
+      padding: 7px;
+      margin-left: -7px;
+      color: #fff;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      margin-right: 8px;
+    }
+    @include m(pay) {
+      color: $blueColor;
+      border: 1px solid $blueColor;
+      i {
+        background: $blueColor;
+      }
+    }
+    @include m(enter) {
+      color: $yellowColor;
+      border: 1px solid $yellowColor;
+      i {
+        background: $yellowColor;
+      }
+    }
+  }
+}
+.rob-ant-timeline-item-time{
+      display: inline-block;
+    width: 70px;
+}

@@ -1,0 +1,32 @@
+@include b(footer) {
+  margin-left: 200px;
+  color: #8f8f8f;
+  font-size: 12px;
+  text-align: center;
+  padding: 43px 0;
+  @include m(mini) {
+    margin-left: 45px;
+  }
+  ;
+  @include m(hide) {
+    margin-left: 0px;
+  }
+  @include e(fixed_bottom){
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 26px 15px;
+    z-index: 97;
+  //background: url("../../assets/images/bg-login-footer.png")repeat-x; width:100%;
+    background: rgba(255, 255, 255, 0.741);
+  }
+}
+@media (max-width: 700px){
+  .qb-footer-g__fixed_bottom {
+    margin-left: 0px!important;
+  }
+}
+
+

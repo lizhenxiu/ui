@@ -1,0 +1,299 @@
+$ftNormal:normal;
+body{
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+    font-weight: 400;
+}
+.ui-con-box{
+    h2{
+        font-size: 24px;
+        font-weight: $ftNormal;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: $ftNormal;
+        line-height: 30px;
+    }
+    h5{
+        font-size: 14px;
+        font-weight: $ftNormal;
+        color: #6e6e6e;
+        line-height: 40px; 
+        margin-bottom: 20px;   
+    }
+}
+.ui-icon-list{
+    margin-bottom: 30px;
+    overflow: hidden;
+    .ui-icon-li{
+        float: left;
+        width: 16.66%;
+        text-align: center;
+        list-style: none;
+        cursor: pointer;
+        height: 100px;
+        color: #000;
+        position: relative;
+        margin: 3px 0;
+        border-radius: 4px;
+        background-color: #fff;
+        // overflow: hidden;
+        padding: 10px 0 0;
+        &:hover{
+            background: #f4f6f8;
+            .ui-icon-unite{
+                color: #006cff;
+            }
+        } 
+    }
+    .ui-icon-unite{
+        font-size: 24px;
+        margin: 12px 0 16px;
+        display: block;
+        font-style: normal;
+        vertical-align: baseline;
+        text-align: center;
+        text-transform: none;
+        line-height: 1;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .ui-icon-name{
+        display: block;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+
+
+.ui-message-show{
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+    border: solid 1px #eaeaea;
+    position: relative;
+    margin-bottom: 60px;
+    
+   
+}
+.ui-msg-pd40{
+  padding: 40px 20px;
+}
+.mr30{
+  margin-right: 30px;
+}
+.ui-msg-col{
+    color: #036eff;
+}
+.ui-msg-col span{
+    cursor: pointer;
+}
+.ui-message-show-code{
+    color: #9e9e9e;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    padding: 20px;
+    cursor: pointer;
+    &:hover{
+        color: #036eff;
+        background: #f4f4f4;
+    }
+}
+.ui-meta{
+    background-color: #fafafa;
+    border-top: solid 1px #eaeefb;
+    transition: height .2s; 
+
+}
+.ui-description{
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 1px #ebebeb;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    word-break: break-word;
+    margin: 10px;
+    background-color: #fff;
+}
+.ui-highlight-code{
+    padding: 20px;
+    background: #f9f9f9;
+}
+.active{
+    color: #006cff;
+}
+.ui-code-html{
+    background: #f4f6f8;
+    padding: 15px 20px;
+    margin: 16px 0;
+    overflow: auto;
+    color: #046efe
+}
+
+
+
+
+
+
+
+
+
+// adminfonts
+// @font-face {
+//   font-family: 'qb-icon';
+//   src:  url('fonts/admin-qb-icon.eot?beki1y');
+//   src:  url('fonts/admin-qb-icon.eot?beki1y#iefix') format('embedded-opentype'),
+//   url('fonts/admin-qb-icon.ttf?beki1y') format('truetype'),
+//   url('fonts/admin-qb-icon.woff?beki1y') format('woff'),
+//   url('fonts/admin-qb-icon.svg?beki1y#qb-icon') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// [class^="qb-icon-"], [class*=" qb-icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: 'qb-icon' !important;
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .qb-icon-x:before {
+//   content: "\78";
+// }
+// .qb-icon-download:before {
+//   content: "\e639";
+// }
+// .qb-icon-delete:before {
+//   content: "\e648";
+// }
+// .qb-icon-username:before {
+//   content: "\e654";
+// }
+// .qb-icon-quit:before {
+//   content: "\e655";
+// }
+// .qb-icon-password:before {
+//   content: "\e656";
+// }
+// .qb-icon-choose:before {
+//   content: "\e657";
+// }
+// .qb-icon-close:before {
+//   content: "\e658";
+// }
+// .qb-icon-calendar:before {
+//   content: "\e659";
+// }
+// .qb-icon-bell:before {
+//   content: "\e65a";
+// }
+// .qb-icon-back:before {
+//   content: "\e65b";
+// }
+// .qb-icon-add:before {
+//   content: "\e65c";
+// }
+// .qb-icon-delete1:before {
+//   content: "\e65d";
+// }
+// .qb-icon-delete2:before {
+//   content: "\e65e";
+// }
+// .qb-icon-details:before {
+//   content: "\e660";
+// }
+// .qb-icon-search:before {
+//   content: "\e661";
+// }
+// .qb-icon-open:before {
+//   content: "\e662";
+// }
+// .qb-icon-code:before {
+//   content: "\e663";
+// }
+// .qb-icon-eye-close:before {
+//   content: "\e664";
+// }
+// .qb-icon-OK:before {
+//   content: "\e665";
+// }
+// .qb-icon-report:before {
+//   content: "\e666";
+// }
+// .qb-icon-report1:before {
+//   content: "\e667";
+// }
+// .qb-icon-user:before {
+//   content: "\e668";
+// }
+// .qb-icon-home-thick:before {
+//   content: "\e670";
+// }
+// .qb-icon-shezhi:before {
+//   content: "\e671";
+// }
+// .qb-icon-paper-thickg:before {
+//   content: "\e672";
+// }
+// .qb-icon-wallet-thick:before {
+//   content: "\e673";
+// }
+// .qb-icon-money-thick:before {
+//   content: "\e674";
+// }
+// .qb-icon-card-thick:before {
+//   content: "\e675";
+// }
+// .qb-icon-counter-thick:before {
+//   content: "\e676";
+// }
+// .qb-icon-money-hand:before {
+//   content: "\e677";
+// }
+// .qb-icon-person-thick:before {
+//   content: "\e678";
+// }
+// .qb-icon-business-thick:before {
+//   content: "\e679";
+// }
+// .qb-icon-choose1:before {
+//   content: "\e67a";
+// }
+// .qb-icon-rob-icon-plus:before {
+//   content: "\e67c";
+// }
+// .qb-icon-open1:before {
+//   content: "\e67d";
+// }
+// .qb-icon-angle-down:before {
+//   content: "\e67e";
+// }
+// .qb-icon-angle-up:before {
+//   content: "\e67f";
+// }
+// .qb-icon-icon-left:before {
+//   content: "\e680";
+// }
+// .qb-icon-icon-right:before {
+//   content: "\e681";
+// }
+// .qb-icon-icon-right1:before {
+//   content: "\e683";
+// }
+// .qb-icon-icon-left1:before {
+//   content: "\e684";
+// }
+
+
+

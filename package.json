@@ -14,8 +14,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "mavon-editor": "^2.4.13",
+    "highlightjs": "^9.10.0",
     "vue": "^2.5.2",
+    "vue-clipboard2": "0.0.8",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -82,7 +83,6 @@
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
-    "vue-markdown-loader": "^2.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",

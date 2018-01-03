@@ -1,0 +1,129 @@
+@include b(column-header) {
+    padding: 15px 20px;
+    background-color: #f2f4f6;
+    font-size: 14px;
+    color: #525252;
+    border-bottom: 1px solid #e1e5ea;
+    @include m(button) {
+        button {
+            min-width: 105px;
+            float: right;
+            margin-top: -25px;
+            &+button {
+                margin-right: 10px;
+            }
+        }
+    }
+    @include m(tab-button) {
+        position: relative;
+        .tab-button {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            z-index: 10;
+        }
+    }
+
+    @include m(red) {
+        background-color: #b92930;
+        .rob-btn-danger.rob-btn-line[disabled],
+        .rob-btn-danger.rob-btn-line.disabled {
+            opacity: .3;
+            background-color: transparent;
+        }
+        @include e(checkbox) {
+            text-align: left;
+            color: #fff;
+        }
+        [type="checkbox"].rob-checkbox-filled-in:checked+label:after {
+            border: 2px solid #fff;
+            background-color: transparent;
+        }
+        [type="checkbox"].rob-checkbox-filled-in:checked+label:before {
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+        }
+        [type="checkbox"].rob-checkbox-filled-in:not(:checked)+label:after {
+            border: 2px solid #fff;
+        }
+    }
+    @include m(tabs) {
+        padding: 0;
+        background-color: #fff;
+        border: none;
+        .rob-nav-tabs2 {
+            padding: 20px 10px 0 30px;
+            border: none;
+            border-bottom: 1px solid #e1e5ea;
+            background-color: #f2f4f6;
+            li>a {
+                padding: 10px 0;
+                width: 160px;
+                text-align: center;
+            }
+            li.active {
+                a {
+                    padding: 12px 0;
+                    margin-top: -5px;
+                }
+            }
+            button {
+                float: right;
+                margin-top: -8px;
+            }
+            .tab-content {
+                background-color: #fff;
+                .tab-pane {
+                    margin: 10px;
+                }
+            }
+        }
+        .rob-nav-tabs1 {
+            padding: 15px 0 15px 30px;
+            background-color: #fafbfd;
+            background-image: linear-gradient(to top, #f3f7fc 0%, #fafbfd 100%);
+            background-image: -webkit-linear-gradient(bottom, #f3f7fc 0%, #fafbfd 100%);
+        }
+        .rob-nav-tabs1>li>a {
+            padding: 6px 10px;
+            text-align: center;
+            min-width: 80px;
+        }
+        @include m(tab-content) {
+            background-color: #fff;
+            .rob-nav-tabs2 {
+                border: none;
+                border-top: none;
+                border-bottom: 1px solid #e1e5ea;
+                padding-left: 20px;
+            }
+            .tab-pane {
+                margin: 10px;
+                border: 1px solid #e1e5ea;
+                .tab-pane {
+                    margin: 0;
+                    border: none;
+                }
+            }
+        }
+        ;
+    }
+    .tab-content .rob-nav-tabs2>li>a {
+        padding: 5px 0;
+    }
+    .tab-content .rob-nav-tabs2>li.active>a {
+        padding: 7px 0;
+    }
+    .rob-breadcrumb>.active>a {
+        cursor: text;
+    }
+}
+
+@include max-screen(992px) {
+    .qb-column-header-g--tabs .rob-nav-tabs2 li>a {
+        width: 100px;
+    }
+}
+.rob-nav-tabs1{
+    margin-bottom: 20px;
+}

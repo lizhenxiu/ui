@@ -18,9 +18,10 @@ export default {
 
 
 <style lang="scss" type="text/scss" rel="stylesheet/scss">
-  @import 'assets/css/main.css';
-  @import 'assets/css/robotUI.css';
-  @import 'assets/css/ui.css';
+// @import './app/assets/css/scss/main.scss';
+  // @import 'assets/css/main.css';
+  @import './app/assets/css/robotUI.css';
+  @import './app/assets/css/ui.scss';
   
 
 

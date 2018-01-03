@@ -1,0 +1,405 @@
+@font-face {
+  font-family: 'qb-icon';
+  src: url("../fonts/admin-qb-icon.eot?beki1y");
+  src: url("../fonts/admin-qb-icon.eot?beki1y#iefix") format("embedded-opentype"), url("../fonts/admin-qb-icon.ttf?beki1y") format("truetype"), url("../fonts/admin-qb-icon.woff?beki1y") format("woff"), url("../fonts/admin-qb-icon.svg?beki1y#qb-icon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="qb-icon-"], [class*=" qb-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'qb-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.qb-icon-x:before {
+  content: "\78"; }
+
+.qb-icon-download:before {
+  content: "\e639"; }
+
+.qb-icon-delete:before {
+  content: "\e648"; }
+
+.qb-icon-username:before {
+  content: "\e654"; }
+
+.qb-icon-quit:before {
+  content: "\e655"; }
+
+.qb-icon-password:before {
+  content: "\e656"; }
+
+.qb-icon-choose:before {
+  content: "\e657"; }
+
+.qb-icon-close:before {
+  content: "\e658"; }
+
+.qb-icon-calendar:before {
+  content: "\e659"; }
+
+.qb-icon-bell:before {
+  content: "\e65a"; }
+
+.qb-icon-back:before {
+  content: "\e65b"; }
+
+.qb-icon-add:before {
+  content: "\e65c"; }
+
+.qb-icon-delete1:before {
+  content: "\e65d"; }
+
+.qb-icon-delete2:before {
+  content: "\e65e"; }
+
+.qb-icon-details:before {
+  content: "\e660"; }
+
+.qb-icon-search:before {
+  content: "\e661"; }
+
+.qb-icon-open:before {
+  content: "\e662"; }
+
+.qb-icon-code:before {
+  content: "\e663"; }
+
+.qb-icon-eye-close:before {
+  content: "\e664"; }
+
+.qb-icon-OK:before {
+  content: "\e665"; }
+
+.qb-icon-report:before {
+  content: "\e666"; }
+
+.qb-icon-report1:before {
+  content: "\e667"; }
+
+.qb-icon-user:before {
+  content: "\e668"; }
+
+.qb-icon-home-thick:before {
+  content: "\e670"; }
+
+.qb-icon-shezhi:before {
+  content: "\e671"; }
+
+.qb-icon-paper-thickg:before {
+  content: "\e672"; }
+
+.qb-icon-wallet-thick:before {
+  content: "\e673"; }
+
+.qb-icon-money-thick:before {
+  content: "\e674"; }
+
+.qb-icon-card-thick:before {
+  content: "\e675"; }
+
+.qb-icon-counter-thick:before {
+  content: "\e676"; }
+
+.qb-icon-money-hand:before {
+  content: "\e677"; }
+
+.qb-icon-person-thick:before {
+  content: "\e678"; }
+
+.qb-icon-business-thick:before {
+  content: "\e679"; }
+
+.qb-icon-choose1:before {
+  content: "\e67a"; }
+
+.qb-icon-rob-icon-plus:before {
+  content: "\e67c"; }
+
+.qb-icon-open1:before {
+  content: "\e67d"; }
+
+.qb-icon-angle-down:before {
+  content: "\e67e"; }
+
+.qb-icon-angle-up:before {
+  content: "\e67f"; }
+
+.qb-icon-icon-left:before {
+  content: "\e680"; }
+
+.qb-icon-icon-right:before {
+  content: "\e681"; }
+
+.qb-icon-icon-right1:before {
+  content: "\e683"; }
+
+.qb-icon-icon-left1:before {
+  content: "\e684"; }
+
+html, body {
+  height: 100%; }
+
+.qb-admin-login-g {
+  background: #eceef1;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+  .qb-admin-login-g .rob-panel {
+    z-index: 1;
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    margin-top: -218px;
+    margin-left: -200px; }
+  .qb-admin-login-g__h3 {
+    padding: 30px 0;
+    font-size: 28px;
+    font-family: "PingFang SC", "Microsoft YaHei"; }
+    .qb-admin-login-g__h3 img {
+      padding-top: 12px; }
+  .qb-admin-login-g form {
+    padding: 0px 45px 0 45px; }
+  .qb-admin-login-g .rob-input-line {
+    padding: 0;
+    background-color: #fcfcfc; }
+    .qb-admin-login-g .rob-input-line:hover {
+      border-color: #999999; }
+  .qb-admin-login-g .admin-input-label {
+    color: #666666;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1; }
+  .qb-admin-login-g .rob-form-group input {
+    padding-left: 60px;
+    background-color: #fcfcfc;
+    border: solid 1px #e4e4e4;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
+  .qb-admin-login-g .qb-login-g {
+    max-width: 400px; }
+  .qb-admin-login-g .qb-adm-line-g {
+    padding: 0; }
+    .qb-admin-login-g .qb-adm-line-g:focus {
+      border: none; }
+    .qb-admin-login-g .qb-adm-line-g .rob-input:focus {
+      outline: 0;
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      -ms-box-shadow: none;
+      box-shadow: none; }
+    .qb-admin-login-g .qb-adm-line-g input:hover {
+      border: 1px solid #afafaf; }
+  .qb-admin-login-g .qb-adm-line-g.rob-input-has-error input {
+    border: 1px solid #ff3c00; }
+  .qb-admin-login-g .admin-code-img {
+    padding-right: 0; }
+    .qb-admin-login-g .admin-code-img img {
+      float: right;
+      max-width: 80px;
+      height: 40px;
+      cursor: pointer; }
+  .qb-admin-login-g .gb-admin-btn {
+    background: #3c43a3;
+    border-radius: 0 !important;
+    color: #fff;
+    height: 45px !important;
+    margin-top: 0 !important;
+    border: none;
+    box-shadow: 0 6px 9px 0 rgba(125, 127, 142, 0.3) !important; }
+    .qb-admin-login-g .gb-admin-btn:hover {
+      background: #515aba; }
+  .qb-admin-login-g .rob-form-group {
+    margin-bottom: 28px; }
+
+.qb-login-g {
+  padding: 0;
+  border: none;
+  width: 40%;
+  margin: 0;
+  float: right;
+  background: #fff;
+  max-width: 350px;
+  max-height: 500px; }
+  .qb-login-g__login-h3 {
+    color: #393939 !important;
+    font-weight: 400;
+    font-size: 22px !important;
+    margin: 0 !important;
+    padding: 13px 0 !important;
+    border-bottom: 1px solid #eaecee; }
+  .qb-login-g__login-password {
+    right: 20px !important; }
+  .qb-login-g form {
+    padding: 30px 45px 0 45px; }
+  .qb-login-g .rob-form-group {
+    margin-bottom: 18px; }
+  .qb-login-g .rob-has-icon-left .rob-is-icon-left {
+    top: 5px;
+    font-size: 14px;
+    cursor: inherit; }
+  .qb-login-g .rob-input-has-error .rob-is-icon-left {
+    color: #cc1612; }
+  .qb-login-g .rob-has-icon-right .rob-is-icon-right {
+    top: 5px;
+    right: 0;
+    color: #dddddd; }
+    .qb-login-g .rob-has-icon-right .rob-is-icon-right:hover {
+      color: #393939; }
+  .qb-login-g input:-webkit-autofill {
+    background-color: #FAFFBD;
+    background-image: none;
+    color: #000; }
+  .qb-login-g .rob-has-icon-left .rob-input {
+    padding-left: 30px;
+    font-size: 18px;
+    height: 34px; }
+  .qb-login-g .rob-input-line .rob-input:focus + .rob-input-line-border {
+    border-color: #c2c2c2; }
+  .qb-login-g .rob-input-line {
+    padding: 0;
+    border-color: #cfcfcf; }
+    .qb-login-g .rob-input-line:hover {
+      border-color: #999999; }
+    .qb-login-g .rob-input-line .rob-is-icon-left {
+      left: 0;
+      padding: 6px 0; }
+  .qb-login-g .rob-input-has-error.rob-input-line {
+    border-color: #cc1612; }
+  .qb-login-g .rob-code-img {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    height: 30px; }
+    .qb-login-g .rob-code-img img {
+      position: relative;
+      z-index: 999;
+      cursor: pointer;
+      right: 0;
+      height: 100%;
+      width: 80px; }
+  .qb-login-g .rob-form-group button {
+    margin-top: 15px;
+    width: 100%;
+    height: 38px;
+    box-shadow: 0px 8px 20.2px 3.8px rgba(204, 22, 18, 0.33); }
+  .qb-login-g .rob-form-group .rob-panel-button {
+    padding: 0; }
+  .qb-login-g .rob-login-entries {
+    padding: 0 15px 20px 15px;
+    margin-top: 30px;
+    text-align: center; }
+    .qb-login-g .rob-login-entries .list-tag {
+      font-size: 12px;
+      color: #cfcfcf;
+      margin-top: 3px; }
+    .qb-login-g .rob-login-entries ul {
+      display: inline-block; }
+      .qb-login-g .rob-login-entries ul li {
+        float: left;
+        display: inline;
+        padding: 5px; }
+        .qb-login-g .rob-login-entries ul li a {
+          font-size: 12px;
+          color: #393939; }
+          .qb-login-g .rob-login-entries ul li a:hover {
+            color: #cc1612; }
+  .qb-login-g .rob-login-password-padding-right {
+    padding-right: 50px; }
+  .qb-login-g .rob-login-code-padding-right {
+    padding-right: 100px; }
+
+.footer-admin {
+  line-height: 60px;
+  clear: both;
+  color: #464646;
+  font-size: 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-family: PingFangSC;
+  text-align: center; }
+  .footer-admin div {
+    letter-spacing: 0.6px; }
+
+.admin-login-pass {
+  padding: 0px 50px 35px; }
+  .admin-login-pass a {
+    margin-left: 10px;
+    color: #4e4e4e;
+    font-size: 12px; }
+    .admin-login-pass a:hover {
+      text-decoration: underline; }
+
+.rob-form-group {
+  margin-bottom: 18px; }
+
+.rob-has-icon-left .rob-is-icon-left {
+  top: 5px;
+  font-size: 14px;
+  cursor: inherit; }
+
+.rob-input-has-error .rob-is-icon-left {
+  color: #cc1612; }
+
+.rob-has-icon-right .rob-is-icon-right {
+  top: 5px;
+  right: 0;
+  color: #dddddd; }
+  .rob-has-icon-right .rob-is-icon-right:hover {
+    color: #393939; }
+
+input:-webkit-autofill {
+  background-color: #FAFFBD;
+  background-image: none;
+  color: #000; }
+
+.rob-has-icon-left .rob-input {
+  padding-left: 30px;
+  font-size: 18px;
+  height: 34px; }
+
+.rob-input-line .rob-input:focus + .rob-input-line-border {
+  border-color: #c2c2c2; }
+
+.rob-input-line {
+  padding: 0;
+  border-color: #cfcfcf; }
+  .rob-input-line:hover {
+    border-color: #999999; }
+  .rob-input-line .rob-is-icon-left {
+    left: 0;
+    padding: 6px 0; }
+
+.rob-input-has-error.rob-input-line {
+  border-color: #cc1612; }
+
+.rob-code-img {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  height: 30px; }
+  .rob-code-img img {
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 80px; }
+
+.rob-form-group .rob-panel-button {
+  padding: 0; }

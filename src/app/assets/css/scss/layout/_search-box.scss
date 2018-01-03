@@ -1,0 +1,90 @@
+@include b(search) {
+    padding: 32px 0 18px 0;
+    margin-bottom: 10px;
+    background: #fff;
+    .rob-input-label {
+        color: #393939;
+    }
+    @include m(layout) {
+        margin: 10px 0;
+    }
+
+    @include e(button) {
+        button {
+            width: 100%;
+            height: 40px;
+        }
+        @include e(item) {
+            margin-left: -20px;
+        }
+    }
+    // @media (max-width: 1200px) {
+    //     @include e(button) {
+    //         margin-top: 20px;
+    //     }
+    // }
+    .rob-input-item+.rob-input-item {
+        padding-left: 6px;
+    }
+    @at-root .qb-search-g__re-calendar .rob-input-item:first-child {
+        padding-left: 0px;
+        padding-right: 3px;
+        .qb-icon-calendar {
+            right: 5px;
+        }
+    }
+    .rob-input-item:last-child::before {
+        left: -4px;
+        color: #a9a9a9;
+    }
+    @include e(re-calendar){
+        .rob-input-item{
+            width: calc(50% - 20px);
+            width: -moz-calc(50% - 20px);
+            width: -webkit-calc(50% - 20px);
+        }
+        .rob-input-item{
+            &+.rob-input-item{
+                &::before{
+                    content: '－';
+                    position: absolute;
+                    z-index: 10;
+                    line-height: 40px;
+                    left: -5px;
+                    color: #a9a9a9;
+                }
+            }
+        }
+        .qb-select-g{
+
+            display: inline-block;
+            height: 40px;
+            border: 1px solid #cdcdcd;
+            margin-left: 3px;
+            width: 37px;
+            padding-right: 0;
+            text-align: center;
+            -webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            border-radius:3px;
+            .qb-icon-angle-down{
+                position: relative;
+                height: 18px
+            }
+        }
+        .rob-select{
+            .rob-select-items{
+                z-index: 9;
+                right:0px;
+            width: 45%;}
+
+        }
+    }
+
+}
+
+.rob-input-date {
+    .rob-error-message {
+        width: 200%;
+    }
+}

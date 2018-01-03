@@ -2,7 +2,7 @@
 <header class="header">
     <div class="rob-container">     
     <div class="ui-head-con">
-      <a href=""><img class="ui-logo" src="../../assets/images/ui-logo.png" alt=""></a>
+      <a href=""><img class="ui-logo" src="../../app/assets/images/ui-logo.png" alt=""></a>
      <a href="" class="ui-logo-ft"><span>Robot UI</span></a>
     </div>
     <ul class="ui-head-menu">

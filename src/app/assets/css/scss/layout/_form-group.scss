@@ -1,0 +1,169 @@
+@include b(form-group) {
+  
+  	//.rob-form-group {
+  	//	margin-bottom: 25px;
+  	//
+  	//}
+
+	.rob-form-group-has-button {
+		margin-right: 140px;
+
+		position: relative;
+		
+			
+
+		.qb-form-group-iconbox {
+  	position: absolute;
+  	right: 0px;
+  	font-size: 16px;
+  	top: 10px;
+	  color:#2d2c2c;
+	  cursor: pointer;
+	  //&:hover{
+		//  color:#aeaeae;
+	  //}
+  }
+.qb-icon-add-hover{
+	color:#aeaeae;
+}
+  .qb-form-group-buttonbox {
+  	position: absolute;
+  	right: -105px;
+  	top: 0px;
+  	font-size: 16px;
+  	line-height: 40px;
+	  cursor: pointer;
+  	button {
+
+  		opacity: 0.4;
+  	}
+  }
+
+
+  @media (max-width: 992px){
+				.qb-form-group-iconbox {
+  	position: absolute;
+  	right: 0px;
+  	font-size: 16px;
+  	top: 52%;
+	  color:#2d2c2c;
+	  cursor: pointer;
+	  //&:hover{
+		//  color:#aeaeae;
+	  //}
+  }
+.qb-icon-add-hover{
+	color:#aeaeae;
+}
+  .qb-form-group-buttonbox {
+  	position: absolute;
+  	right: -105px;
+  	top: 42%;
+  	font-size: 16px;
+  	line-height: 40px;
+  	button {
+
+  		opacity: 0.4;
+  	}
+  }
+			}
+
+
+@media (max-width: 768px){
+				.qb-form-group-iconbox {
+  	position: absolute;
+  	right: 0px;
+  	font-size: 16px;
+  	top: 42%;
+	  color:#2d2c2c;
+	  cursor: pointer;
+	  //&:hover{
+		//  color:#aeaeae;
+	  //}
+  }
+.qb-icon-add-hover{
+	color:#aeaeae;
+}
+  .qb-form-group-buttonbox {
+  	position: absolute;
+  	right: -105px;
+  	top: 32%;
+  	font-size: 16px;
+  	line-height: 40px;
+  	button {
+
+  		opacity: 0.4;
+  	}
+  }
+			}	
+		
+	}
+		padding: 20px 0;
+
+		.qb-radio-line-height {
+			line-height: 40px;
+			span {
+				display: block;
+				margin-top: 10px;
+			}
+		}
+}
+
+
+@include b(form-footButton) {
+  
+  	background: #f4f8fa;
+  	padding: 30px 0;
+  	text-align: center;
+
+  	button {
+  		height: 40px;
+  		width: 25%;
+  	}
+  	button + button {
+  		margin-left : 3%;
+  	}
+}
+
+@include b(position-relative) {
+  position: relative;
+
+  .rob-input-label  {
+  	    line-height: 25px;
+  }
+  	
+}
+
+
+
+@include b(money_list){
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	border:  1px dashed #d6d7da;
+	padding: 6px;
+	overflow: hidden;
+	li{
+		line-height: 35px;
+		&:nth-last-child(2){
+			border-bottom:  1px dashed #d6d7da;
+			overflow: hidden;
+		}
+	}
+}
+
+@include b(pull-left){
+	float: left;
+}
+
+@include b(pull-right){
+	float: right;
+}
+@include b(pos-rg){
+	position: absolute;
+	right: -30px;
+	top: 0px;
+	font-size: 16px;
+	line-height: 40px;
+	cursor: pointer;
+}
