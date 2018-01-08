@@ -246,11 +246,8 @@
 
 
   </div>
-
-
 </template>
 <script type="text/javascript">
-
   export default {
     data () {
       return {
@@ -276,14 +273,14 @@
       }
     },
     beforeCreate () {
-     
     },
     created () {
-      
     },
-    components: {},
     mounted () {
-      
+      SyntaxHighlighter.defaults['toolbar'] = false
+      SyntaxHighlighter.config.tagName = 'pre'
+      SyntaxHighlighter.defaults.gutter = false 
+      SyntaxHighlighter.all()
     }
   }
 </script>
