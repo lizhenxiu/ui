@@ -3,17 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
 // import mavonEditor from 'mavon-editor'
 // import 'mavon-editor/dist/css/index.css'
 
 // import './assets/css/robotUI.css'
 // import './assets/css/ui.scss'
 import './app/assets/css/scss/main.scss'
-
-// import './app/assets2/css/scss/main.scss'
-
-// Vue.use(mavonEditor)
+import './app/assets/css/robotUI.css'
+import './app/assets/css/ui.scss'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

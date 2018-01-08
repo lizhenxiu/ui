@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/robotUI.css">
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/main.css">
+</head>
+<style>
+    body{background: rgba(0, 0, 0, 0.8) !important;height: auto}
+    .rob-col-md-24 .rob-alert.rob-alert-dismissible{
+        position: relative;
+        transform: none;
+        left: 20px;
+        margin-top:20px;
+        margin-left: 0;
+    }
+</style>
+<body style="position:relative">
+<div class="rob-row">
+    <div class="rob-col-md-24">
+        <div id="alert1" class="rob-alert rob-alert-dismissible" role="alert " >
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <div class="rob-alert-content">
+                <!--qb-icon-active  保存成功-->
+                <!--qb-icon-failure 保存失败-->
+                <i class="bg_icon qb-icon-active">
+                </i>
+                <div class="">
+                    <div>*****保存成功</div>
+
+                </div>
+            </div>
+            <div class="rob-alert-button-color">
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">保存成功</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert2" class="rob-alert rob-alert-dismissible" role="alert " >
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <div class="rob-alert-content">
+                <!--qb-icon-active  保存成功-->
+                <!--qb-icon-failure 保存失败-->
+                <i class="bg_icon qb-icon-active">
+                </i>
+                <div class="">
+                    <div>*****保存成功</div>
+
+                </div>
+            </div>
+            <div class="rob-alert-button-color">
+                <button type="button" class="rob-btn rob-btn-minor rob-btn-circle ">继续操作</button>
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">查看结果</button>
+            </div>
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert3" class="rob-alert rob-alert-dismissible" role="alert " >
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <div class="rob-alert-content">
+                <i class="bg_icon qb-icon-failure">
+                </i>
+                <div class="">
+                    <div>*****失败</div>
+
+                </div>
+            </div>
+            <div class="rob-alert-button-color">
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">知道了</button>
+            </div>
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert4" class="rob-alert rob-alert-dismissible" role="alert ">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <div class="rob-alert-content">
+
+                <i class="bg_icon qb-icon-loading">
+                </i>
+                <div class="">
+                    <div>处理中...</div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert5" class="rob-alert rob-alert-dismissible" role="alert ">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+
+            <div class="rob-alert-content">
+                <div class="">
+                    <div>确定要删除吗？</div>
+
+                </div>
+            </div>
+            <div class="rob-alert-button-color">
+                <button type="button" class="rob-btn rob-btn-minor rob-btn-circle ">继续操作</button>
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">查看结果</button>
+            </div>
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert6" class="rob-alert container rob-alert-dismissible qb-min-380-g">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="rob-alert-title rob-alert-title-color text-center"> 关联公众账号</div>
+            <div class="rob-alert-content">
+
+                <div>为了您能够进行正常的业务操作，请及时关联对公账号</div>
+
+            </div>
+
+            <div class="rob-alert-button rob-alert-button-45">
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">去关联</button>
+            </div>
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+        <div id="alert9" class="rob-alert container rob-alert-dismissible qb-min-380-g">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="rob-alert-title rob-alert-title-color text-center">用图编辑</div>
+            <div class="rob-alert-content">
+                <div class="rob-row">
+                <div class="rob-col-lg-24 rob-col-md-24 rob-col-sm-24 rob-col-xs-24">
+                    <div class="rob-col-lg-6 rob-col-md-6 rob-col-sm-6 rob-col-xs-6 qb-pd0-g">
+                        <label class="rob-input-label text-right ">用途:
+                        </label>
+                    </div>
+                    <div class="rob-col-lg-16 rob-col-md-16 rob-col-sm-16 rob-col-xs-16 text-left">
+                        <div class="rob-input-item">
+                            <input type="text" class="rob-input">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="rob-alert-button rob-alert-button-45">
+                <button type="button" class="rob-btn rob-btn-danger rob-btn-circle ">去关联</button>
+            </div>
+        </div>
+    </div>
+    <div class="rob-col-md-24">
+    <div class="qb-alert-g--mini">
+        <div id="alert8" class="rob-alert container rob-alert-dismissible" style="display:block">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="qb-column-header-g qb-column-header-g--button">
+                <ol class="rob-breadcrumb rob-breadcrumb-pointed">
+
+                    <li class="active"><a href="#">贷款进度查询</a></li>
+                </ol>
+
+            </div>
+            <div class="rob-form-group rob-col-lg-24">
+
+                <div class="rob-col-lg-24 rob-col-md-24 rob-col-sm-24 rob-col-xs-24 qb-alert-g__top">
+                    <div class="qb-select-menu-g qb-alert-g__top__high text-left">
+                        <div class="rob-row">
+                            <div class="rob-col-md-12 rol-col-sm-12 rob-col-xs-24 qb-rg-bdsilid-g">
+                                <div class="qb-select-box-g">
+                                    <p>可选菜单：</p>
+                                    <div class="qb-c-search-g">
+                                        <input type="text" class="search-inp">
+                                        <i class="qb-c-search-g__icon-search qb-icon-search"></i>
+                                    </div>
+                                    <label>管理员但<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>张三<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>李四<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+                                    <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-add2"></i></label>
+
+                                </div>
+
+                            </div>
+                            <div class="rob-col-md-12 rol-col-sm-12 rob-col-xs-24">
+                                <p class="search-bt60">可选菜单：</p>
+
+                                <label>管理员但<i class="qb-select-menu-g--selectIcon qb-icon-delete1"></i></label>
+                                <label>张三<i class="qb-select-menu-g--selectIcon qb-icon-delete1"></i></label>
+                                <label>李四<i class="qb-select-menu-g--selectIcon qb-icon-delete1"></i></label>
+                                <label>管理员但却未完全2<i class="qb-select-menu-g--selectIcon qb-icon-delete1"></i></label>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="rob-col-lg-5 rob-col-md-5 rob-col-sm-5 rob-col-xs-24 qb-pd0-g">
+                        <div class="qb-red-g rob-input-label text-left "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-box">
+                <button class="rob-btn rob-btn-danger rob-btn-circle " type="button">搜索</button>
+                <button class="rob-btn rob-btn-minor rob-btn-circle " type="button">清除</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="rob-col-md-24">
+        <div class="qb-alert-g">
+        <div id="alert7" class="rob-alert content rob-alert-dismissible " style="display:block">
+            <button type="button" class="rob-alert-close" data-dismiss="rob-alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="qb-column-header-g qb-column-header-g--button">
+                <ol class="rob-breadcrumb rob-breadcrumb-pointed">
+                    <li class="active"><a href="#">贷款进度查询</a></li>
+                </ol>
+            </div>
+            <div class=" qb-alert-g__content">
+                <div class=" qb-search-g--layout">
+                    <div class="qb-search-g btm0">
+                        <div class="rob-row rob-no-gutters">
+                            <div class="rob-col-lg-9 rob-col-md-9 rob-col-sm-12 rob-col-xs-24">
+                                <div class="rob-form-group">
+                                    <div class="rob-col-lg-6 rob-col-md-8 rob-col-sm-12 rob-col-xs-24 qb-no-padding-rg">
+                                        <label for="inputEmail3" class="rob-input-label">日期哈日期:</label>
+                                    </div>
+                                    <div class="rob-col-lg-18 rob-col-md-14 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="rob-input-item rob-has-icon-right">
+                                            <input type="text" class="rob-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rob-col-lg-9 rob-col-md-9 rob-col-sm-12 rob-col-xs-24">
+                                <div class="rob-form-group">
+                                    <div class="rob-col-lg-6 rob-col-md-8 rob-col-sm-24 rob-col-xs-24 qb-no-padding-rg">
+                                        <label for="inputEmail3" class="rob-input-label">日期哈日期:</label>
+                                    </div>
+                                    <div class="rob-col-lg-18 rob-col-md-14 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="rob-input-item rob-has-icon-right">
+                                            <input type="text" class="rob-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rob-col-lg-6 rob-col-md-6 rob-col-sm-12 rob-col-xs-24  column qb-search-g__button ">
+                                <div class="rob-col-lg-12 rob-col-md-12 rob-col-sm-12 rob-col-xs-12">
+                                    <button class="rob-btn rob-btn-danger rob-btn-circle " type="button">搜索</button>
+                                </div>
+                                <div class="rob-col-lg-12 rob-col-md-12 rob-col-sm-12 rob-col-xs-12 qb-search-g__button__item">
+                                    <button class="rob-btn rob-btn-minor rob-btn-circle " type="button">清除</button>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 表格 -->
+                <div class=" clearfix">
+                    <div class="qb-list-g">
+                        <div class="qb-list-g__table">
+                            <div class="rob-row clearfix">
+                                <div class="rob-col-lg-24 column">
+                                    <div class="rob-table-responsive qb-alert-g__content__table">
+                                        <table class="rob-table rob-table-striped rob-table-hover qb-alert-g__content__table__table__border">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    编号
+                                                </th>
+                                                <th>
+                                                    产品
+                                                </th>
+                                                <th>
+                                                    交付时间
+                                                </th>
+                                                <th>
+                                                    状态
+                                                </th>
+                                                <th>
+                                                    交付时间
+                                                </th>
+                                                <th>
+                                                    状态
+                                                </th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr><tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr>
+                                            <tr><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td><td><span>lllll</span></td><td> <span>lllll</span></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>

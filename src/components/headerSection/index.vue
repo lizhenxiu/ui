@@ -8,6 +8,7 @@
     <ul class="ui-head-menu">
       <li><router-link to="/components/indexPage">首页</router-link></li>
       <li><router-link to="/components/comPage">组件</router-link></li>
+       <li><router-link to="/components/projects">项目</router-link></li>
     </ul>
     </div>
   </header>
@@ -15,7 +16,7 @@
 <script type="text/javascript">
 </script>
 
-<style lang="scss" type="text/scss" rel="stylesheet/scss">
+<style lang="scss" type="text/scss" rel="stylesheet/scss" scoped>
   .ui-head-con{
       float: left;
       display: inline;

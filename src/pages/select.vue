@@ -11,11 +11,11 @@
           <div class="rob-select rob-col-md-8">
             <div class="rob-select" @click="toggle()"  v-bind:class="{'open':!isopen,'open':isopen}" >
               <div class="rob-has-icon-right" data-toggle="dropdown" aria-expanded="true">
-                <div class="rob-select-box rob-has-icon-right qb-select-g" v-on:change="change" >
-                  <i class="rob-is-icon-right qb-icon-angle-down"></i>  {{ selected }} 
+                <div class="rob-select-box rob-has-icon-right qb-select-g" >
+                  <i class="rob-is-icon-right qb-icon-angle-down"></i>  {{ selectText }} 
                 </div>
                 <div class="rob-select-items" >  
-                  <div class="rob-select-item" v-for="option in options" v-bind:value="option.value" :key="option.value" >
+                  <div class="rob-select-item" @click="changeVal(option.value,option.text)" v-for="option in options" v-bind:value="option.value" :key="option.value" >
                       {{option.text}}
                   </div>
                 </div>
@@ -50,8 +50,8 @@ export default {
   data () {
     return {
       isopen: false,
-      message: '111',
-      selected: '请选择',
+      selectValue: '',
+      selectText: '请选择',
       options: [
         { text: '请选择1', value: '1' },
         { text: '请选择2', value: '2' },
@@ -63,8 +63,10 @@ export default {
     toggle () {
       this.isopen = !this.isopen
     },
-    change () {
-      console.log(this.selected)
+    changeVal (key, value) {
+      this.selectValue = key
+      this.selectText = value
+      console.log(key)
     }
   }
 }

@@ -13,6 +13,15 @@ const routes = [
     redirect: '/'
   },
   {
+    path: '/components/projects',
+    component: () => import('@/components/projectCompage/index'),
+    children: [
+      {
+        path: '',
+        component: () => import('@/pages/a')
+      }]
+  },
+  {
     path: '/components/comPage',
     component: () => import('@/components/comPage/index'),
     children: [
@@ -77,6 +86,18 @@ const routes = [
         component: () => import('@/pages/datatimepicker')
       }
     ]
+  },
+  {
+    path: '/components/projects/index',
+    component: () => import('@/projects1/rongshuWallet/v1.0/index')
+  },
+  {
+    path: '/components/projects/rujinjilu',
+    component: () => import('@/projects1/rongshuWallet/v1.0/rujinjilu')
+  },
+  {
+    path: '/components/projects/details1',
+    component: () => import('@/projects1/rongshuWallet/v1.0/details1')
   }
 ]
 const router = new Router({
@@ -84,4 +105,5 @@ const router = new Router({
   linkActiveClass: 'active',
   history: true
 })
+
 export default router

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/robotUI.css">
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/main.css">
+</head>
+<body>
+
+<!-- 头部 -->
+<div class="header">
+    <div class="rob-container">
+        <div class="qb-header-g qb-header-g__bg">
+            <a class="qb-header-g__logo" href="">
+                <img src="../../../app/assets/images/logo.png">
+            </a>
+            <span class="qb-greet-g fs16">欢迎注册</span>
+            <div class="qb-pull-right-g qb-greet-g mr40">已有账号？去<a class="qb-red-g fs14" href="">登录</a></div>
+        </div>
+    </div>
+</div>
+<div class="qb-check-g">
+    <div class="rob-container">
+    <div class="qb-panel-g clearfix">
+        <div id="myTabContent1" class="tab-content qb-column-header-g--tabs--tab-content">
+            <div role="tabpanel" id="home1" aria-labelledby="home-tab">
+            </div>
+            <div role="tabpanel" id="profile1" aria-labelledby="profile-tab">
+                <div role="tabpanel" class="" aria-labelledby="dropdown1-tab">
+                    <ul id="myTabs" class="rob-nav rob-nav-tabs2 " role="tablist">
+                        <li role="presentation"  class="active class=">
+                            <a href="#home2" id="home-tab" role="tab" data-toggle="rob-tab" aria-controls="home" aria-expanded="false">注册结果</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#profile2" role="tab" id="profile-tab" data-toggle="rob-tab" aria-controls="profile" aria-expanded="true">企业信息</a>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="#dropdown12" role="tab" id="dropdown1-tab" data-toggle="rob-tab" aria-controls="dropdown1">管理员信息</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div class="pdtb100 text-center">
+                        <i class="bg_icon qb-icon-failure"></i>     <!--不通过-->
+                        <i class="bg_icon qb-icon-active"></i>      <!--成功-->
+                        <i class="bg_icon qb-icon-checking"></i>    <!--审核中-->
+                            <div class="fs16 lh40">很抱歉，您的企业信息审核不通过！</div>
+                            <div class="fs12">不通过原因：营业执照照片不清晰，管理员1身份证号码填写跟上传的照片不符合。</div>
+                            <button type="button" class="rob-btn rob-btn-danger rob-btn-circle pd38 mgt30">修改注册信息</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" id="dropdown11" aria-labelledby="dropdown1-tab">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 尾部 -->
+<div class="qb-footer-g">
+    <div class="footerTel">邮箱：wallet-service@rongcapital.cn&nbsp; 客服电话：010-57044877&nbsp;&nbsp; 周一至周五：9:00-17:00</div>
+    <div>©2017 北京融数沃雷特科技服务有限公司&nbsp; rswallet.com｜京ICP备16042215号-3</div>
+</div>
+</body>
+</html>

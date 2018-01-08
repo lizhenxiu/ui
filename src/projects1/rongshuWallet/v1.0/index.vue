@@ -1,0 +1,527 @@
+<template>
+<div>
+    <div class="header">
+    <div class="rob-container">
+        <div class="qb-header-g qb-header-g__bg">
+            <a class="qb-header-g__logo" href="">
+                <img src="../../../app/assets/images/logo.png">
+
+            </a>
+            <div class="qb-menu-g__switch">
+                <i class="qb-icon-back"></i>
+                <i class="qb-icon-open1"></i>
+            </div>
+            <ul class="qb-header-g--navbar-right hiden">
+                <li><a href=""><i class="qb-head-icon-g qb-icon-user"></i>
+                </a><div class="popover qb-popover-g"><a href="">
+                    <div class="arrow"></div>
+                    <p class="popover-title popover-name">阿超</p>
+                    <p class="popover-title">上次登录时间</p>
+                    <p class="popover-title">2016-09-27 18:00</p>
+                </a><div class="popover-content"><a href="">
+                </a><a target="_blank" href="">
+                    <button class="rob-btn rob-btn-danger rob-btn-circle qb-popover-g__pd20">进入个人中心</button>
+                </a>
+                </div>
+                </div>
+
+                </li>
+                <li><a href=""><i class="qb-head-icon-g qb-icon-bell"></i><span class="qb-news-g qb-news-g__absol1"></span></a></li>
+                <li><a href=""><i class="qb-head-icon-g qb-icon-quit"></i></a></li>
+            </ul>
+            <div class="kind-title">课栈网</div>
+
+
+        </div>
+    </div>
+</div>
+    <!-- 菜单 qb-menu-g--mini-->
+    <!--qb-open_menu-g 小屏幕700 上展开-->
+    <div class="qb-menu-g qb-menu-g--mini qb-open_menu-g">
+
+
+        <!--close-->
+        <ul class="rob-sidebar-menu-1 close">
+         <!-- close -->
+             <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-home"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu active open" style="display: block;">
+                    <li class="nav-item" >
+                        <a class="nav-link ">
+                            <span class="title">菜单一1</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二2</span>
+                        </a>
+                    </li>
+                 
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-account"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+                 
+                </ul>
+            </li>
+
+
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-payment"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-instead"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-credit"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-other1"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-other"></i>
+                    <span class="title">首页</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-menu-message-thin"></i>
+                    <span class="title">基本信息</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class=" ">
+                    <i class="qb-icon-menu-lock-thin"></i>
+                    <span class="title">安全设置</span>
+                    <span class="selected"></span>
+                    <span class="arrow"><i class="rob-icon-angle-up"></i></span>
+                </a>
+                <ul class="sub-menu " >
+                    <li class="nav-item">
+                        <a class="nav-link ">
+                            <span class="title">菜单一</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ">
+                            <span class="title">菜单二</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+    <!-- layout qb-wapper-g__menu-mini-->
+    <div class="qb-wapper-g qb-wapper-g__menu-mini qb-wapper_open-g">
+     <!-- qb-wapper-g__menu-mini -->
+        <div class="rob-container-fluid qb-dashboard-g">
+            <div class="rob-row qb-dashboard-g__row">
+                <div class="rob-col-lg-8 rob-col-md-8 rob-col-xs-24 rob-col-sm-24">
+                    <div class="qb-dashboard-g__item">
+                        <div class="qb-dashboard-g__money">
+                            1000,00
+                        </div>
+                        <div class="qb-dashboard-g__desc">
+                            账户余额(元)
+                        </div>
+                        <div class="qb-dashboard-g__button">
+                            <div class="rob-row ">
+                                <button style="width:40%" class=" rob-btn rob-btn-danger rob-btn-line rob-btn-circle">充值</button>
+                                <button  style="width:40%" class="rob-btn rob-btn-danger rob-btn-line rob-btn-circle">充值</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rob-col-lg-8 rob-col-md-8 rob-col-xs-24 rob-col-sm-24">
+                    <div class="qb-dashboard-g__item">
+                        <div class="qb-dashboard-g__money">
+                            1000,00
+                        </div>
+                        <div class="qb-dashboard-g__desc">
+                            账户余额(元)
+                        </div>
+                        <div class="qb-dashboard-g__button">
+                            <div class="rob-row">
+                                <button style="width:80%" class="rob-btn rob-btn-danger rob-btn-line rob-btn-circle">充值</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rob-col-lg-8 rob-col-md-8 rob-col-xs-24 rob-col-sm-24">
+                    <div class="qb-dashboard-g__item qb-dashboard-g__item--border-none">
+                        <div class="qb-dolist-g">
+                            <div class="qb-dolist-g__title">
+                                待办事宜
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <span class="title">支付结算</span>
+                                        <span>待处理笔数：</span>
+                                        <span class="num">8</span>笔</a>
+                                </li>
+                                 <li>
+                                    <a href="">
+                                        <span class="title">支付结算</span>
+                                        <span>待处理笔数：</span>
+                                        <span class="num">8</span>笔</a>
+                                </li>
+                                 <li>
+                                    <a href="">
+                                        <span class="title">支付结算</span>
+                                        <span>待处理笔数：</span>
+                                        <span class="num">8</span>笔</a>
+                                </li>
+                                 <li>
+                                    <a href="">
+                                        <span class="title">支付结算</span>
+                                        <span>待处理笔数：</span>
+                                        <span class="num">8</span>笔</a>
+                                </li>
+                                 <li>
+                                    <a href="">
+                                        <span class="title">支付结算</span>
+                                        <span>待处理笔数：</span>
+                                        <span class="num">8</span>笔</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rob-row qb-handle-g rob-no-gutters">
+            <div class="rob-col-lg-8 rob-col-md-8 rob-col-sm-8 rob-col-xs-24">
+                <div class="qb-handle-g__item active">
+                    <span class="bg_icon icon-one"></span>
+                    <label>单笔支付经办</label>
+                </div>
+            </div>
+            <div class="rob-col-lg-8 rob-col-md-8 rob-col-sm-8 rob-col-xs-24">
+                <div class="qb-handle-g__item">
+                    <span class="bg_icon icon-two"></span>
+                    <label>批量支付经办</label>
+                </div>
+            </div>
+            <div class="rob-col-lg-8 rob-col-md-8 rob-col-sm-8 rob-col-xs-24">
+                <div class="qb-handle-g__item">
+                    <span class="bg_icon icon-three"></span>
+                    <label>代发经办</label>
+                </div>
+            </div>
+        </div>
+        <!-- 面板 -->
+        <div class="qb-panel-g qb-media-height">
+            <div class="qb-column-header-g">
+                最近交易
+            </div>
+            <div class="qb-time-line-g">
+                <ul class="rob-ant-timeline">
+                    <li class="rob-ant-timeline-item">
+                        <div class="rob-ant-timeline-item-time">2015-09-01</div>
+                        <div class="rob-ant-timeline-item-tail"></div>
+                        <div class="rob-ant-timeline-item-head rob-ant-timeline-item-head-blue"></div>
+                        <div class="rob-ant-timeline-item-content">
+                            <div class="rob-ant-timeline-item-desc right">
+                                <div class="arrow"></div>
+                                <div class="rob-row rob-no-gutters">
+                                    <div class="rob-col-lg-6 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>交易金额(元)</label>
+                                        </span>
+                                            <span class="qb-time-line-g__list-icon qb-time-line-g__list-icon--pay">
+                                            <i class="qb-icon-icon-yellow"></i>
+                                            入金
+                                            </span>
+                                            <div class="qb-time-line-g__list-money">
+                                                234,000.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>交易流水号</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small ">
+                                                01032093726
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>余额(元)</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money ">
+                                                234,000.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-6 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>收(付)方名称</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small">
+                                                很多很多哈哈
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>收(付)方账号</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small">
+                                                01032093726
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rob-ant-timeline-item">
+                        <div class="rob-ant-timeline-item-time">2015-09-01</div>
+                        <div class="rob-ant-timeline-item-tail"></div>
+                        <div class="rob-ant-timeline-item-head rob-ant-timeline-item-head-blue"></div>
+                        <div class="rob-ant-timeline-item-content">
+                            <div class="rob-ant-timeline-item-desc right">
+                                <div class="arrow"></div>
+                                <div class="rob-row rob-no-gutters">
+                                    <div class="rob-col-lg-6 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>交易金额(元)</label>
+                                        </span>
+                                            <span class="qb-time-line-g__list-icon qb-time-line-g__list-icon--enter">
+                                            <i class="qb-icon-icon-blue"></i>
+                                            入金
+                                            </span>
+                                            <div class="qb-time-line-g__list-money">
+                                                234,000.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>交易流水号</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small ">
+                                                01032093726
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>余额(元)</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money ">
+                                                234,000.00
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-6 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>收(付)方名称</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small">
+                                                很多很多哈哈
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rob-col-lg-4 rob-col-md-12 rob-col-sm-24 rob-col-xs-24">
+                                        <div class="qb-time-line-g__list-item">
+                                            <span class="qb-time-line-g__list-title">
+                                            <label>收(付)方账号</label>
+                                        </span>
+                                            <div class="qb-time-line-g__list-money qb-time-line-g__list-money--small">
+                                                01032093726
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rob-ant-timeline-item">
+                        <div class="rob-ant-timeline-item-time">2015-09-01</div>
+                        <div class="rob-ant-timeline-item-tail"></div>
+                        <div class="rob-ant-timeline-item-head rob-ant-timeline-item-head-blue"></div>
+                        <div class="rob-ant-timeline-item-content">
+                            <div class="rob-ant-timeline-item-desc right">
+                                <div class="arrow"></div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rob-ant-timeline-item rob-ant-timeline-item-last">
+                        <div class="rob-ant-timeline-item-time">2015-09-01</div>
+                        <div class="rob-ant-timeline-item-tail"></div>
+                        <div class="rob-ant-timeline-item-head rob-ant-timeline-item-head-blue"></div>
+                        <div class="rob-ant-timeline-item-content">
+                            <div class="rob-ant-timeline-item-desc right">
+                                <div class="arrow"></div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                                <div>oooo</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 qb-footer-g--mini-->
+    <div class="qb-footer-g qb-footer-g--mini qb-footer_open-g">
+    <!-- qb-footer-g--hide -->
+        Copyright©2015 融数金服 辽ICP备15009643号 ▏客服电话：010-56793739 周一至周五：9:00-20:00
+    </div>
+</div>
+</template>
+<script>
+export default {
+}
+</script>
+<style lang="scss" scoped>
+
+</style>
+

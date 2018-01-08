@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'qb-icon';
+  src:  url('fonts/admin-qb-icon.eot?beki1y');
+  src:  url('fonts/admin-qb-icon.eot?beki1y#iefix') format('embedded-opentype'),
+    url('fonts/admin-qb-icon.ttf?beki1y') format('truetype'),
+    url('fonts/admin-qb-icon.woff?beki1y') format('woff'),
+    url('fonts/admin-qb-icon.svg?beki1y#qb-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="qb-icon-"], [class*=" qb-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'qb-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qb-icon-x:before {
+  content: "\78";
+}
+.qb-icon-download:before {
+  content: "\e639";
+}
+.qb-icon-delete:before {
+  content: "\e648";
+}
+.qb-icon-username:before {
+  content: "\e654";
+}
+.qb-icon-quit:before {
+  content: "\e655";
+}
+.qb-icon-password:before {
+  content: "\e656";
+}
+.qb-icon-choose:before {
+  content: "\e657";
+}
+.qb-icon-close:before {
+  content: "\e658";
+}
+.qb-icon-calendar:before {
+  content: "\e659";
+}
+.qb-icon-bell:before {
+  content: "\e65a";
+}
+.qb-icon-back:before {
+  content: "\e65b";
+}
+.qb-icon-add:before {
+  content: "\e65c";
+}
+.qb-icon-delete1:before {
+  content: "\e65d";
+}
+.qb-icon-delete2:before {
+  content: "\e65e";
+}
+.qb-icon-details:before {
+  content: "\e660";
+}
+.qb-icon-search:before {
+  content: "\e661";
+}
+.qb-icon-open:before {
+  content: "\e662";
+}
+.qb-icon-code:before {
+  content: "\e663";
+}
+.qb-icon-eye-close:before {
+  content: "\e664";
+}
+.qb-icon-OK:before {
+  content: "\e665";
+}
+.qb-icon-report:before {
+  content: "\e666";
+}
+.qb-icon-report1:before {
+  content: "\e667";
+}
+.qb-icon-user:before {
+  content: "\e668";
+}
+.qb-icon-home-thick:before {
+  content: "\e670";
+}
+.qb-icon-shezhi:before {
+  content: "\e671";
+}
+.qb-icon-paper-thickg:before {
+  content: "\e672";
+}
+.qb-icon-wallet-thick:before {
+  content: "\e673";
+}
+.qb-icon-money-thick:before {
+  content: "\e674";
+}
+.qb-icon-card-thick:before {
+  content: "\e675";
+}
+.qb-icon-counter-thick:before {
+  content: "\e676";
+}
+.qb-icon-money-hand:before {
+  content: "\e677";
+}
+.qb-icon-person-thick:before {
+  content: "\e678";
+}
+.qb-icon-business-thick:before {
+  content: "\e679";
+}
+.qb-icon-choose1:before {
+  content: "\e67a";
+}
+.qb-icon-rob-icon-plus:before {
+  content: "\e67c";
+}
+.qb-icon-open1:before {
+  content: "\e67d";
+}
+.qb-icon-angle-down:before {
+  content: "\e67e";
+}
+.qb-icon-angle-up:before {
+  content: "\e67f";
+}
+.qb-icon-icon-left:before {
+  content: "\e680";
+}
+.qb-icon-icon-right:before {
+  content: "\e681";
+}
+.qb-icon-icon-right1:before {
+  content: "\e683";
+}
+.qb-icon-icon-left1:before {
+  content: "\e684";
+}

@@ -9,11 +9,11 @@
     <pre class="ui-code-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Icon</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>link<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span></code></pre>
     <h3 class="mt40">前台图标</h3>
     <ul class="ui-icon-list mt30">
-      <li class="ui-icon-li" >
+      <li class="ui-icon-li" v-clipboard:copy="'qb-icon-download'" v-clipboard:success="copyClick">
         <i class="ui-icon-unite qb-icon-download"></i>
         <span class="ui-icon-name" ref="param1">qb-icon-download</span>
       </li>
-      <li class="ui-icon-li">
+      <li class="ui-icon-li" v-clipboard:copy="'qb-icon-delete'">
         <i class="ui-icon-unite qb-icon-delete"></i>
         <span class="ui-icon-name">qb-icon-delete</span>
       </li>
@@ -379,6 +379,11 @@ export default {
   data () {
     return {
       message: '111'
+    }
+  },
+  methods: {
+    copyClick: function () {
+      alert('Copy')
     }
   }
 }

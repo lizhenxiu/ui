@@ -29,25 +29,8 @@
                     <span class="ui-two-level"><router-link to="/components/comPage/sprites">Sprites 雪碧图</router-link></span>
                 </a>
             </li>
-            <li class="ui-nav-item">
-                <a class="">
-                  <span class="title">Notice</span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/a2">Alert 警告</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/b2">Loading 加载</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/c2">Message 消息提示</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/d2">Notificatiin 通知</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/d2">MessageBox 弹层</router-link></span>
-                </a>
-            </li>
-            <li class="ui-nav-item">
-                <a class="">
-                  <span class="title">Basic</span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/a3">Color 色彩</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/b3">Typograpy 字体</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/c3">Icon 图标</router-link></span>
-                    <span class="ui-two-level"><router-link to="/components/comPage/d3">Button 按钮</router-link></span>
-                </a>
-            </li>
+            
+      
         </ul>
     </div>
     </div>

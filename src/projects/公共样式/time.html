@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/robotUI.css">
+    <link rel="stylesheet" type="text/css" href="../../../app/assets/css/main.css">
+</head>
+<style>
+    .bgf {
+        background: #fff;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        height: 100%;
+    }
+
+    .qb-datepicker-g {
+        padding: 0;
+    }
+
+    .qb-datepicker-g input {
+        border: 0;
+    }
+
+    .qb-datepicker-g input:hover {
+        border: 0;
+        box-shadow: none;
+    }
+
+    .qb-datepicker-g input:focus {
+        border: 0;
+        box-shadow: none;
+    }
+
+    .qb-datepicker-side-g {
+
+    }
+
+    #time {
+        left: 80px;
+    }
+</style>
+<body>
+<!-- layout -->
+<div class=" bgf">
+    <div class="rob-row rob-no-gutters">
+
+        <div class="rob-col-lg-8 rob-col-md-8 rob-col-sm-8 rob-col-xs-8">
+            <div class="rob-form-group">
+                <div class="rob-col-lg-6 rob-col-md-5 rob-col-sm-24 rob-col-xs-24 qb-no-padding-rg">
+                    <label class="rob-input-label">日期哈日期:</label>
+                </div>
+                <div id="time" class="qb-time_picker_box-g" style="position: absolute; z-index: 999; top: 40px;min-width: 632px;">
+                    <div class="qb-time_datepicker-g">
+                        <div class="qb-datepicker_side-g">
+                            <a class="qb-picker-panel__shortcut-g">最近一周</a>
+                            <a class="qb-picker-panel__shortcut-g">最近一周</a>
+                            <a class="qb-picker-panel__shortcut-g">最近一周</a>
+                        </div>
+                        <div class="qb-panel__body-g">
+                            <div class="qb-time_header-g">
+                                <div class="rob-col-lg-12 rob-col-md-12 rob-col-sm-12 rob-col-xs-12 rob-input-date">
+                                    <div class="rob-input-item rob-has-icon-right mg-rg">
+                                        <input type="text" class="rob-input-time ">
+                                    </div>
+                                    <div class="rob-input-item rob-has-icon-right mg-lf">
+                                        <input type="text" class="rob-input-time">
+                                    </div>
+                                </div>
+
+                                <div class="rob-col-lg-12 rob-col-md-12 rob-col-sm-12 rob-col-xs-12 rob-input-date">
+                                    <button class="rob-btn rob-btn-minor rob-btn-circle pd38" type="button">确定</button>
+                                </div>
+                            </div>
+                            <div class="rob-calendar-panel animated">
+                                <div class="rob-calendar-body-wrapper">
+                                    <div class="rob-calendar-panel-sidebar calendar-hide-sidebar"></div>
+                                    <div class="rob-calendar-panel-body">
+                                        <div class="rob-calendar-header">
+                                                    <span data-ctrl="true"
+
+                                                          class="ui-calendar-control rob-calendar-prev rob-calendar-icon"
+
+                                                          style="user-select: none;">&lt;&lt;</span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-prev rob-calendar-icon"
+
+                                                style="user-select: none;">&lt;</span><span data-ctrl="true"
+
+                                                                                            class="ui-calendar-control rob-calendar-header-label"
+
+                                                                                            style="user-select: none;"><!-- react-text: 2481 -->
+
+                                            <!-- /react-text --><!-- react-text: 2482 -->2017<!-- /react-text -->
+
+                                            <!-- react-text: 2483 -->年<!-- /react-text --></span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-header-label active"
+
+                                                style="user-select: none;"><!-- react-text: 2485 -->10
+
+                                            <!-- /react-text --><!-- react-text: 2486 -->月
+
+                                            <!-- /react-text --></span><span data-ctrl="true"
+
+                                                                             class="ui-calendar-control rob-calendar-next rob-calendar-icon"
+
+                                                                             style="user-select: none;">&gt;&gt;</span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-next rob-calendar-icon"
+
+                                                style="user-select: none;">&gt;</span></div>
+
+                                        <div class="rob-calendar-content">
+
+                                            <table class="rob-date-table date-table qb-pull-left-g">
+
+                                                <tbody>
+
+                                                <tr class="calendar-header">
+
+                                                    <th> 日</th>
+
+                                                    <th> 一</th>
+
+                                                    <th> 二</th>
+
+                                                    <th> 三</th>
+
+                                                    <th> 四</th>
+
+                                                    <th> 五</th>
+
+                                                    <th> 六</th>
+
+                                                </tr>
+
+                                                </tbody>
+
+                                                <tbody id="calendarContainer" class="c_days">
+
+                                                <tr>
+
+                                                    <td class="prev-month">24</td>
+
+                                                    <td class="prev-month">25</td>
+
+                                                    <td class="prev-month">26</td>
+
+                                                    <td class="prev-month">27</td>
+
+                                                    <td class="prev-month">28</td>
+
+                                                    <td class="prev-month">29</td>
+
+                                                    <td class="prev-month">20</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available start-date"><span class="time-date">1</span></td>
+
+                                                    <td class="available in-range"><span  class="time-date">2</span></td>
+
+                                                    <td class="available in-range"><span class="time-date">3</span></td>
+
+                                                    <td class="available in-range"><span class="time-date">4</span></td>
+
+                                                    <td class="available in-range"><span class="time-date">5</span></td>
+
+                                                    <td class="available in-range"><span class="time-date">6</span></td>
+
+                                                    <td class="available in-range"><span class="time-date">7</span></td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available in-range "><span class="time-date">8</span></td>
+
+                                                    <td class="available end-date"><span class="time-date">9</span></td>
+
+                                                    <td class="available">10</td>
+
+                                                    <td class="available">11</td>
+
+                                                    <td class="available">12</td>
+
+                                                    <td class="available">13</td>
+
+                                                    <td class="available">14</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">15</td>
+
+                                                    <td class="available">16</td>
+
+                                                    <td class="available">17</td>
+
+                                                    <td class="available">18</td>
+
+                                                    <td class="available">19</td>
+
+                                                    <td class="available">20</td>
+
+                                                    <td class="available">21</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">22</td>
+
+                                                    <td class="available">23</td>
+
+                                                    <td class="available today">24</td>
+
+                                                    <td class="available">25</td>
+
+                                                    <td class="available">26</td>
+
+                                                    <td class="available">27</td>
+
+                                                    <td class="available">28</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">29</td>
+
+                                                    <td class="available">30</td>
+
+                                                    <td class="available">31</td>
+
+                                                    <td class="next-month">1</td>
+
+                                                    <td class="next-month">2</td>
+
+                                                    <td class="next-month">3</td>
+
+                                                    <td class="next-month">4</td>
+
+                                                </tr>
+
+                                                </tbody>
+
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rob-calendar-panel animated">
+                                <div class="rob-calendar-body-wrapper">
+                                    <div class="rob-calendar-panel-sidebar calendar-hide-sidebar"></div>
+                                    <div class="rob-calendar-panel-body">
+
+
+                                        <div class="rob-calendar-header">
+
+                                                    <span data-ctrl="true"
+
+                                                          class="ui-calendar-control rob-calendar-prev rob-calendar-icon"
+
+                                                          style="user-select: none;">&lt;&lt;</span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-prev rob-calendar-icon"
+
+                                                style="user-select: none;">&lt;</span><span data-ctrl="true"
+
+                                                                                            class="ui-calendar-control rob-calendar-header-label"
+
+                                                                                            style="user-select: none;"><!-- react-text: 2481 -->
+
+                                            <!-- /react-text --><!-- react-text: 2482 -->2017<!-- /react-text -->
+
+                                            <!-- react-text: 2483 -->年<!-- /react-text --></span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-header-label active"
+
+                                                style="user-select: none;"><!-- react-text: 2485 -->10
+
+                                            <!-- /react-text --><!-- react-text: 2486 -->月
+
+                                            <!-- /react-text --></span><span data-ctrl="true"
+
+                                                                             class="ui-calendar-control rob-calendar-next rob-calendar-icon"
+
+                                                                             style="user-select: none;">&gt;&gt;</span><span
+
+                                                data-ctrl="true"
+
+                                                class="ui-calendar-control rob-calendar-next rob-calendar-icon"
+
+                                                style="user-select: none;">&gt;</span></div>
+
+                                        <div class="rob-calendar-content">
+
+                                            <table class="rob-date-table date-table qb-pull-left-g">
+
+                                                <tbody>
+
+                                                <tr class="calendar-header">
+
+                                                    <th> 日</th>
+
+                                                    <th> 一</th>
+
+                                                    <th> 二</th>
+
+                                                    <th> 三</th>
+
+                                                    <th> 四</th>
+
+                                                    <th> 五</th>
+
+                                                    <th> 六</th>
+
+                                                </tr>
+
+                                                </tbody>
+
+                                                <tbody id="calendarContainer" class="c_days">
+
+                                                <tr>
+
+                                                    <td class="prev-month">24</td>
+
+                                                    <td class="prev-month">25</td>
+
+                                                    <td class="prev-month">26</td>
+
+                                                    <td class="prev-month">27</td>
+
+                                                    <td class="prev-month">28</td>
+
+                                                    <td class="prev-month">29</td>
+
+                                                    <td class="prev-month">20</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">1</td>
+
+                                                    <td class="available">2</td>
+
+                                                    <td class="available">3</td>
+
+                                                    <td class="available">4</td>
+
+                                                    <td class="available">5</td>
+
+                                                    <td class="available">6</td>
+
+                                                    <td class="available">7</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">8</td>
+
+                                                    <td class="available">9</td>
+
+                                                    <td class="available">10</td>
+
+                                                    <td class="available">11</td>
+
+                                                    <td class="available">12</td>
+
+                                                    <td class="available">13</td>
+
+                                                    <td class="available">14</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">15</td>
+
+                                                    <td class="available">16</td>
+
+                                                    <td class="available">17</td>
+
+                                                    <td class="available">18</td>
+
+                                                    <td class="available">19</td>
+
+                                                    <td class="available">20</td>
+
+                                                    <td class="available">21</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">22</td>
+
+                                                    <td class="available">23</td>
+
+                                                    <td class="available today">24</td>
+
+                                                    <td class="available">25</td>
+
+                                                    <td class="available">26</td>
+
+                                                    <td class="available">27</td>
+
+                                                    <td class="available">28</td>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                    <td class="available">29</td>
+
+                                                    <td class="available">30</td>
+
+                                                    <td class="available">31</td>
+
+                                                    <td class="next-month">1</td>
+
+                                                    <td class="next-month">2</td>
+
+                                                    <td class="next-month">3</td>
+
+                                                    <td class="next-month">4</td>
+
+                                                </tr>
+
+                                                </tbody>
+
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="rob-col-lg-18 rob-col-md-19 rob-col-sm-24 rob-col-xs-24 rob-input-date">
+                    <div class="qb-datepicker-g rob-input ">
+                        <div class="rob-input-item rob-has-icon-right">
+                            <!--<em class="rob-is-icon-right rob-icon qb-icon-calendar "></em>-->
+                            <input type="text" class="rob-input">
+                        </div>
+                        <div class="rob-input-item rob-has-icon-right">
+                            <em class="rob-is-icon-right rob-icon qb-icon-calendar "></em>
+                            <input type="text" class="rob-input">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<!-- 尾部 -->
+</body>
+
+</html>

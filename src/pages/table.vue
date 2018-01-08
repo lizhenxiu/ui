@@ -375,7 +375,7 @@
 
       <div class="ui-message-show mb60">
         <div class=" ui-msg-pd40">
-          <!-- <div class="qb-panel-g ">
+          <div class="qb-panel-g ">
             <div class="qb-column-header-g">
               业务规则权限列表
             </div>
@@ -526,7 +526,7 @@
               </table>
             </div>
 
-          </div> -->
+          </div>
         </div>
         <div class="ui-message-show-code"></div>
       </div>
